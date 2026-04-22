@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>El Diseño. El Cartel Publicitario — 3.º ESO</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,600;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --black: #0d0d0d;
+    --white: #f5f2ec;
+    --accent: #e8410a;
+    --accent2: #f5b700;
+    --mid: #2a2a2a;
+    --soft: #e8e4dc;
+    --border: #c8c3b8;
+    --text: #1a1a1a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--white);
+    color: var(--text);
+    display: flex;
+    min-height: 100vh;
+  }
+
+  /* SIDEBAR */
+  nav {
+    width: 270px;
+    min-width: 270px;
+    background: var(--black);
+    color: var(--white);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav-brand {
+    background: var(--accent);
+    padding: 28px 24px 22px;
+  }
+
+  .nav-brand .label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 6px;
+  }
+
+  .nav-brand h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    line-height: 1.1;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .nav-brand .sub {
+    font-size: 11px;
+    margin-top: 8px;
+    color: rgba(255,255,255,0.8);
+    font-weight: 300;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 16px 0;
+    flex: 1;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 24px;
+    color: rgba(255,255,255,0.65);
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: 400;
+    border-left: 3px solid transparent;
+    transition: all 0.2s;
+    line-height: 1.4;
+  }
+
+  nav ul li a:hover, nav ul li a.active {
+    color: var(--white);
+    border-left-color: var(--accent);
+    background: rgba(255,255,255,0.05);
+    padding-left: 28px;
+  }
+
+  nav ul li.section-head {
+    padding: 18px 24px 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* MAIN */
+  main {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  /* HERO */
+  .hero {
+    background: var(--black);
+    color: var(--white);
+    padding: 80px 64px 64px;
+    position: relative;
+    overflow: hidden;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .hero::before {
+    content: 'DISEÑO';
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 220px;
+    color: rgba(255,255,255,0.04);
+    pointer-events: none;
+    letter-spacing: -5px;
+  }
+
+  .hero .badge {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding: 6px 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  .hero h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    line-height: 1;
+    letter-spacing: 2px;
+    max-width: 700px;
+  }
+
+  .hero h2 span { color: var(--accent); }
+
+  .hero p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 600px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.7;
+  }
+
+  .hero-meta {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+  }
+
+  .hero-meta div {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 12px;
+  }
+
+  .hero-meta .key {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 4px;
+  }
+
+  .hero-meta .val {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  /* CONTENT SECTIONS */
+  .content {
+    padding: 0 64px 80px;
+  }
+
+  .section {
+    padding: 64px 0 48px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section:last-child { border-bottom: none; }
+
+  .section-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 12px;
+    display: block;
+  }
+
+  .section h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: var(--black);
+    margin-bottom: 28px;
+    line-height: 1;
+  }
+
+  .section h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black);
+    margin: 28px 0 10px;
+    border-left: 3px solid var(--accent);
+    padding-left: 14px;
+  }
+
+  .section p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #333;
+    max-width: 760px;
+    margin-bottom: 14px;
+  }
+
+  .section ul, .section ol {
+    padding-left: 22px;
+    max-width: 760px;
+  }
+
+  .section ul li, .section ol li {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  /* CALLOUT BOX */
+  .callout {
+    background: var(--soft);
+    border-left: 4px solid var(--accent);
+    padding: 20px 24px;
+    margin: 24px 0;
+    max-width: 760px;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .callout strong { color: var(--accent); font-size: 13px; letter-spacing: 1px; display: block; margin-bottom: 8px; text-transform: uppercase; font-family: 'DM Mono', monospace; }
+  .callout p { margin: 0; font-size: 14.5px; }
+
+  /* PREGUNTA MOTRIZ */
+  .pregunta {
+    background: var(--black);
+    color: var(--white);
+    padding: 32px 40px;
+    margin: 28px 0;
+    max-width: 760px;
+    position: relative;
+  }
+
+  .pregunta::before {
+    content: '?';
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    color: rgba(255,255,255,0.06);
+  }
+
+  .pregunta .label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: var(--accent);
+    margin-bottom: 12px;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .pregunta p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    color: var(--white);
+    max-width: 580px;
+  }
+
+  /* GRID 2COL */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 760px;
+    margin: 20px 0;
+  }
+
+  .card {
+    background: var(--soft);
+    border: 1px solid var(--border);
+    padding: 24px;
+  }
+
+  .card .card-head {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .card h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .card ul { padding-left: 18px; }
+  .card ul li { font-size: 13.5px; line-height: 1.65; margin-bottom: 4px; color: #444; }
+
+  /* TABLA */
+  table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 13.5px;
+  }
+
+  thead {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  tbody tr:nth-child(even) { background: var(--soft); }
+  tbody tr:nth-child(odd) { background: var(--white); }
+
+  tbody td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.6;
+    color: #333;
+  }
+
+  tbody td:first-child {
+    font-weight: 600;
+    color: var(--black);
+    white-space: nowrap;
+  }
+
+  .nivel-4 { color: #16a34a; font-weight: 600; }
+  .nivel-3 { color: #2563eb; font-weight: 600; }
+  .nivel-2 { color: #d97706; font-weight: 600; }
+  .nivel-1 { color: #dc2626; font-weight: 600; }
+
+  /* LÍNEA TEMPORAL */
+  .timeline {
+    max-width: 760px;
+    margin: 24px 0;
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 28px;
+    top: 0; bottom: 0;
+    width: 2px;
+    background: var(--border);
+  }
+
+  .tl-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+
+  .tl-num {
+    width: 58px;
+    min-width: 58px;
+    height: 58px;
+    background: var(--black);
+    color: var(--white);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    flex-shrink: 0;
+  }
+
+  .tl-num.accent { background: var(--accent); }
+  .tl-num.accent2 { background: var(--accent2); color: var(--black); }
+
+  .tl-body {
+    padding-top: 8px;
+  }
+
+  .tl-body strong {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .tl-body p {
+    font-size: 13.5px;
+    color: #555;
+    margin: 0;
+  }
+
+  /* CHECKLIST */
+  .checklist {
+    max-width: 700px;
+    margin: 16px 0;
+  }
+
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .check-item:last-child { border-bottom: none; }
+
+  .check-box {
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    border: 2px solid var(--border);
+    border-radius: 3px;
+    margin-top: 1px;
+    background: var(--white);
+  }
+
+  .check-item span {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #333;
+  }
+
+  /* CRITERIOS */
+  .ce-box {
+    border: 1px solid var(--border);
+    padding: 20px 24px;
+    margin: 16px 0;
+    max-width: 760px;
+    position: relative;
+  }
+
+  .ce-box .ce-num {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    background: var(--accent);
+    color: #fff;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    padding: 3px 10px;
+    letter-spacing: 1px;
+  }
+
+  .ce-box h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .ce-box p {
+    font-size: 13.5px;
+    color: #444;
+    margin: 0;
+    line-height: 1.7;
+  }
+
+  /* CRÉDITOS */
+  .creditos {
+    background: var(--black);
+    color: var(--white);
+    padding: 56px 64px;
+  }
+
+  .creditos .section-tag { color: var(--accent2); }
+
+  .creditos h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: var(--white);
+    margin-bottom: 32px;
+  }
+
+  .creditos .credit-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    max-width: 760px;
+    margin-bottom: 40px;
+  }
+
+  .creditos .credit-item .label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin-bottom: 6px;
+  }
+
+  .creditos .credit-item p {
+    font-size: 14.5px;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--accent);
+    color: #fff;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: background 0.2s;
+  }
+
+  .btn-download:hover { background: #c73208; }
+
+  /* METADATOS */
+  .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 900px;
+    margin: 20px 0;
+  }
+
+  .meta-item {
+    border: 1px solid var(--border);
+    padding: 16px;
+  }
+
+  .meta-item .mk {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .meta-item .mv {
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 500;
+  }
+
+  /* DATOS PERSONALES ICONS */
+  .rights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    max-width: 760px;
+    margin: 20px 0;
+  }
+
+  .right-card {
+    padding: 20px 22px;
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--accent);
+  }
+
+  .right-card h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .right-card ul {
+    padding-left: 16px;
+  }
+
+  .right-card ul li {
+    font-size: 13px;
+    line-height: 1.65;
+    color: #444;
+    margin-bottom: 4px;
+  }
+
+  /* GUIA DIDÁCTICA */
+  .guia-table {
+    width: 100%;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 13px;
+  }
+
+  .guia-table thead {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  .guia-table thead th {
+    padding: 12px 14px;
+    text-align: left;
+    font-family: 'DM Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .guia-table tbody tr:nth-child(even) { background: #f0ede7; }
+  .guia-table tbody tr { border-bottom: 1px solid var(--border); }
+  .guia-table tbody td { padding: 12px 14px; vertical-align: top; line-height: 1.55; }
+  .guia-table tbody td:first-child { font-weight: 600; color: var(--accent); }
+
+  /* SCROLL SMOOTH */
+  html { scroll-behavior: smooth; }
+
+  @media (max-width: 900px) {
+    nav { display: none; }
+    .hero { padding: 48px 28px 40px; }
+    .hero h2 { font-size: 48px; }
+    .hero::before { font-size: 120px; }
+    .content { padding: 0 28px 60px; }
+    .grid-2, .credit-grid, .meta-grid, .rights-grid { grid-template-columns: 1fr; }
+    .creditos { padding: 48px 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<nav>
+  <div class="nav-brand">
+    <div class="label">eXeLearning · 3.º ESO</div>
+    <h1>El Diseño.<br>El Cartel</h1>
+    <div class="sub">Ed. Plástica, Visual y Audiovisual</div>
+  </div>
+  <ul>
+    <li class="section-head">Inicio</li>
+    <li><a href="#inicio">Portada del proyecto</a></li>
+
+    <li class="section-head">Contenido</li>
+    <li><a href="#presentacion">Presentación del proyecto</a></li>
+    <li><a href="#datos">Protección de datos y derechos</a></li>
+    <li><a href="#producto">El producto final</a></li>
+    <li><a href="#curacion">Curación de contenidos</a></li>
+    <li><a href="#temporal">Línea temporal</a></li>
+    <li><a href="#criterios">Criterios de evaluación</a></li>
+    <li><a href="#instrumentos">Instrumentos de evaluación</a></li>
+
+    <li class="section-head">Docente</li>
+    <li><a href="#guia">Guía didáctica</a></li>
+    <li><a href="#metadatos">Metadatos</a></li>
+    <li><a href="#creditos">Créditos</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN -->
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="badge">Situación de Aprendizaje · Ed. Plástica, Visual y Audiovisual</div>
+    <h2>El Diseño.<br><span>El Cartel</span><br>Publicitario.</h2>
+    <p>Un proyecto de creación visual para aprender a comunicar con imágenes, colores y tipografía, analizando de forma crítica el mundo visual que nos rodea.</p>
+    <div class="hero-meta">
+      <div>
+        <div class="key">Curso</div>
+        <div class="val">3.º ESO</div>
+      </div>
+      <div>
+        <div class="key">Materia</div>
+        <div class="val">Plástica Visual y Audiovisual</div>
+      </div>
+      <div>
+        <div class="key">Duración</div>
+        <div class="val">10 sesiones</div>
+      </div>
+      <div>
+        <div class="key">Marco</div>
+        <div class="val">LOMLOE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <div class="content">
+
+    <!-- ======================== -->
+    <!-- TAREA 2.1 PRESENTACIÓN  -->
+    <!-- ======================== -->
+    <section class="section" id="presentacion">
+      <span class="section-tag">Tarea 2.1 — Presentación</span>
+      <h2>Presentación del Proyecto</h2>
+
+      <div class="pregunta">
+        <span class="label">Pregunta motriz</span>
+        <p>¿Cómo puede un diseño gráfico cambiar la forma en que vemos el mundo y pensamos sobre él?</p>
+      </div>
+
+      <h3>Descripción general</h3>
+      <p>Esta Situación de Aprendizaje invita al alumnado de 3.º de ESO a convertirse en diseñadores gráficos. Partiendo del análisis crítico de los carteles publicitarios que nos rodean a diario, exploraremos los fundamentos del diseño visual —elementos, principios y lenguaje gráfico— para crear, finalmente, un cartel publicitario propio que comunique un mensaje con eficacia, creatividad y responsabilidad ética.</p>
+
+      <p>Vivimos inmersos en un universo visual. Las imágenes, los colores, las tipografías y los mensajes nos acompañan en cada pantalla, calle y revista. Saber <strong>leer ese lenguaje visual</strong> y ser capaces de producirlo es una competencia fundamental en el siglo XXI.</p>
+
+      <h3>Justificación</h3>
+      <p>Esta SdA conecta el aprendizaje artístico con la realidad cotidiana del alumnado, al tiempo que fomenta el pensamiento crítico ante los medios de comunicación y la publicidad. Además, promueve el uso ético y creativo de las herramientas digitales y trabaja la identidad digital del alumnado desde un enfoque responsable y ciudadano.</p>
+
+      <h3>Objetivos de aprendizaje</h3>
+      <ul>
+        <li>Conocer y aplicar los elementos y principios del diseño gráfico (línea, color, forma, textura, composición, equilibrio, ritmo, énfasis).</li>
+        <li>Analizar de forma crítica los recursos visuales empleados en la publicidad.</li>
+        <li>Crear un cartel publicitario original respetando los derechos de autor y las licencias.</li>
+        <li>Utilizar herramientas digitales para el diseño y la comunicación visual.</li>
+        <li>Desarrollar la sensibilidad estética, el pensamiento creativo y la autonomía artística.</li>
+        <li>Aplicar los principios de accesibilidad visual y atención a la diversidad en el diseño.</li>
+      </ul>
+
+      <div class="callout">
+        <strong>Atención a la diversidad — DUA</strong>
+        <p>Este proyecto aplica los principios del Diseño Universal para el Aprendizaje (DUA): se ofrecen múltiples medios de representación (texto, imagen, vídeo), múltiples formas de acción y expresión (digital, manual, oral) y múltiples formas de implicación (elección del tema, trabajo individual o en pareja).</p>
+      </div>
+
+      <h3>Conexión curricular</h3>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head">Competencias clave</div>
+          <ul>
+            <li>Competencia en comunicación lingüística (CCL)</li>
+            <li>Competencia digital (CD)</li>
+            <li>Competencia personal, social y de aprender a aprender (CPSAA)</li>
+            <li>Competencia ciudadana (CC)</li>
+            <li>Competencia emprendedora (CE)</li>
+            <li>Competencia en conciencia y expresión culturales (CCEC)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-head">Saberes básicos</div>
+          <ul>
+            <li>Los elementos del lenguaje visual y plástico</li>
+            <li>Principios de composición y diseño gráfico</li>
+            <li>La comunicación visual: publicidad e imagen</li>
+            <li>Herramientas digitales de diseño</li>
+            <li>Derechos de autor y licencias Creative Commons</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== -->
+    <!-- TAREA 2.3 DATOS         -->
+    <!-- ======================== -->
+    <section class="section" id="datos">
+      <span class="section-tag">Tarea 2.3 — Derechos Digitales</span>
+      <h2>Protección de Datos y Derechos Digitales</h2>
+
+      <p>Durante esta Situación de Aprendizaje utilizarás herramientas digitales, crearás contenidos y trabajarás en entornos en línea. Es fundamental que conozcas tus derechos y responsabilidades como ciudadano digital.</p>
+
+      <div class="rights-grid">
+        <div class="right-card">
+          <h4>🔒 Protección de datos personales</h4>
+          <ul>
+            <li>No compartas datos personales en plataformas públicas (nombre completo, dirección, teléfono).</li>
+            <li>Solo se recogerán los datos estrictamente necesarios para las actividades.</li>
+            <li>Tienes derecho a acceder a tus datos, rectificarlos y solicitar su supresión (RGPD).</li>
+            <li>Tus trabajos se compartirán solo con el permiso explícito del tutor/a.</li>
+          </ul>
+        </div>
+        <div class="right-card">
+          <h4>🎨 Derechos de autor y licencias</h4>
+          <ul>
+            <li>Todas las imágenes, vídeos y audios tienen propietario. Comprueba siempre la licencia antes de usarlos.</li>
+            <li>Usa el filtro de licencia Creative Commons (CC) al buscar imágenes.</li>
+            <li>Cita siempre la fuente y el tipo de licencia de los contenidos que uses.</li>
+            <li>Repositorios recomendados: Unsplash, Pixabay, Pexels, Wikimedia Commons.</li>
+          </ul>
+        </div>
+        <div class="right-card">
+          <h4>🧭 Identidad y huella digital</h4>
+          <ul>
+            <li>Los contenidos que publiques en internet forman tu huella digital. Sé responsable.</li>
+            <li>Tienes derecho a la propia imagen: no publiques fotos de otras personas sin su consentimiento.</li>
+            <li>Piensa antes de publicar: ¿cómo te representa ese contenido?</li>
+            <li>Gestiona tus perfiles digitales con criterio y responsabilidad.</li>
+          </ul>
+        </div>
+        <div class="right-card">
+          <h4>⚖️ Legislación de referencia</h4>
+          <ul>
+            <li>Ley Orgánica 3/2018 (LOPDGDD) — Protección de Datos en España.</li>
+            <li>Reglamento General de Protección de Datos (RGPD) — UE.</li>
+            <li>Real Decreto-ley 14/2019 — Administración Digital.</li>
+            <li>Ley de Propiedad Intelectual (Real Decreto Legislativo 1/1996).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>Tipos de licencias Creative Commons</strong>
+        <p>CC BY (solo atribuir) · CC BY-SA (atribuir + compartir igual) · CC BY-NC (atribuir + no comercial) · CC BY-ND (atribuir + sin obras derivadas) · CC0 (dominio público). Para uso educativo, busca siempre licencias CC BY o CC0.</p>
+      </div>
+    </section>
+
+    <!-- ======================== -->
+    <!-- TAREA 4.1 PRODUCTO FINAL-->
+    <!-- ======================== -->
+    <section class="section" id="producto">
+      <span class="section-tag">Tarea 4.1 — Producto Final</span>
+      <h2>El Producto Final</h2>
+
+      <p>Al final de esta Situación de Aprendizaje habrás creado un <strong>cartel publicitario original en formato digital</strong> que demuestre tu dominio de los elementos del diseño y tu capacidad para comunicar un mensaje visual con eficacia y responsabilidad.</p>
+
+      <h3>¿Qué vas a crear?</h3>
+      <div class="callout">
+        <strong>Producto</strong>
+        <p>Un cartel publicitario digital (formato A3, 297 × 420 mm, resolución mínima 150 ppp) acompañado de una memoria explicativa de una página.</p>
+      </div>
+
+      <h3>¿Qué puede promocionar tu cartel?</h3>
+      <ul>
+        <li><strong>Opción A —</strong> Una causa social o medioambiental (reciclaje, igualdad, salud mental, derechos digitales…).</li>
+        <li><strong>Opción B —</strong> Un producto o servicio ficticio de tu propia invención.</li>
+        <li><strong>Opción C —</strong> Un evento cultural, deportivo o escolar real o imaginado.</li>
+      </ul>
+
+      <h3>Elementos obligatorios del cartel</h3>
+      <ol>
+        <li>Imagen principal llamativa (fotografía, ilustración o composición digital).</li>
+        <li>Titular o eslogan breve e impactante.</li>
+        <li>Texto secundario o información complementaria (mínimo).</li>
+        <li>Logotipo o símbolo identificativo.</li>
+        <li>Uso consciente y justificado del color, la tipografía y la composición.</li>
+      </ol>
+
+      <h3>Herramientas digitales sugeridas</h3>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head">Diseño en línea (sin instalación)</div>
+          <ul>
+            <li><strong>Canva</strong> — canva.com (gratuito con cuenta edu)</li>
+            <li><strong>Adobe Express</strong> — express.adobe.com</li>
+            <li><strong>Photopea</strong> — photopea.com (tipo Photoshop online)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-head">Software libre (instalable)</div>
+          <ul>
+            <li><strong>GIMP</strong> — gimp.org (edición de imagen rasterizada)</li>
+            <li><strong>Inkscape</strong> — inkscape.org (diseño vectorial)</li>
+            <li><strong>Krita</strong> — krita.org (ilustración digital)</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Formato de entrega</h3>
+      <ul>
+        <li>Archivo digital del cartel en <strong>PDF o PNG</strong> de alta calidad.</li>
+        <li><strong>Memoria explicativa</strong> (1 página máx.) con: descripción del mensaje, justificación de las decisiones de diseño (color, tipografía, composición), herramienta utilizada y licencias de las imágenes incorporadas.</li>
+      </ul>
+    </section>
+
+    <!-- ======================== -->
+    <!-- TAREA 5.1 CURACIÓN      -->
+    <!-- ======================== -->
+    <section class="section" id="curacion">
+      <span class="section-tag">Tarea 5.1 — Curación de Contenidos</span>
+      <h2>Herramientas de Curación de Contenidos</h2>
+
+      <p>A continuación encontrarás dos paneles de recursos curados: uno pensado para el equipo docente y otro diseñado para que el alumnado acceda directamente a los materiales de referencia que necesitará durante el proyecto.</p>
+
+      <h3>Panel del docente — Wakelet</h3>
+      <div class="callout">
+        <strong>Recurso para el profesorado</strong>
+        <p>Este panel recoge recursos teóricos, referentes del diseño gráfico, artículos sobre publicidad crítica y tutoriales avanzados para el profesorado. Accede en <strong>wakelet.com</strong> — colección «El Diseño. El Cartel Publicitario – Recursos Docente».</p>
+      </div>
+
+      <p>El panel del docente está organizado en las siguientes secciones:</p>
+      <ul>
+        <li><strong>Teoría del diseño:</strong> artículos y documentos sobre elementos y principios del diseño gráfico.</li>
+        <li><strong>Historia del cartel publicitario:</strong> referentes históricos desde el Art Nouveau hasta el diseño contemporáneo.</li>
+        <li><strong>Publicidad crítica:</strong> recursos para trabajar el análisis crítico de los medios con el alumnado.</li>
+        <li><strong>Herramientas digitales:</strong> tutoriales para Canva, GIMP, Inkscape y Adobe Express.</li>
+        <li><strong>DUA y atención a la diversidad:</strong> adaptaciones y recursos para alumnado con necesidades específicas.</li>
+        <li><strong>Evaluación:</strong> rúbricas, ejemplos de buenas prácticas y referentes evaluativos.</li>
+      </ul>
+
+      <h3>Panel del alumnado — Padlet</h3>
+      <div class="callout">
+        <strong>Recurso para el alumnado</strong>
+        <p>Este tablero digital contiene todos los recursos que necesitarás durante el proyecto, organizados por fases de trabajo. Accede en <strong>padlet.com</strong> — tablero «El Cartel Publicitario – Recursos Alumnado».</p>
+      </div>
+
+      <p>El panel del alumnado está organizado en las siguientes columnas:</p>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-head">Inspiración y referentes</div>
+          <ul>
+            <li>Carteles históricos icónicos del siglo XX</li>
+            <li>Diseño gráfico contemporáneo</li>
+            <li>Publicidad social y causas reales</li>
+            <li>Ejemplos de carteles de compañeros/as de años anteriores</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-head">Aprende a diseñar</div>
+          <ul>
+            <li>Tutorial básico de Canva (vídeo)</li>
+            <li>Cómo usar capas en Photopea</li>
+            <li>Principios de composición explicados</li>
+            <li>Teoría del color para principiantes</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-head">Recursos libres</div>
+          <ul>
+            <li>Imágenes CC: Unsplash, Pixabay, Pexels</li>
+            <li>Tipografías: Google Fonts, DaFont (filtro gratuito)</li>
+            <li>Paletas de color: Coolors.co, Adobe Color</li>
+            <li>Iconos: Flaticon (filtro CC), The Noun Project</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="card-head">Herramientas y entrega</div>
+          <ul>
+            <li>Cómo exportar en alta calidad desde Canva</li>
+            <li>Guía para citar imágenes y fuentes</li>
+            <li>Plantilla de la memoria explicativa</li>
+            <li>Checklist de autoevaluación antes de entregar</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== -->
+    <!-- TAREA 7.1 LÍNEA TEMPORAL-->
+    <!-- ======================== -->
+    <section class="section" id="temporal">
+      <span class="section-tag">Tarea 7.1 — Planificación</span>
+      <h2>Línea Temporal del Proyecto</h2>
+
+      <p>El proyecto se desarrolla a lo largo de <strong>10 sesiones</strong> de aproximadamente 55 minutos cada una. A continuación se presenta la planificación temporal orientativa:</p>
+
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-num">1–2</div>
+          <div class="tl-body">
+            <strong>Análisis e introducción al diseño gráfico</strong>
+            <p>Observación y análisis crítico de carteles publicitarios reales. Identificación de elementos del diseño (línea, color, forma, textura, espacio). Lluvia de ideas y puesta en común. Rutina de pensamiento «Ver, Pensar, Preguntarse».</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-num accent2">3–4</div>
+          <div class="tl-body">
+            <strong>Principios de diseño y comunicación visual</strong>
+            <p>Composición, equilibrio, ritmo, énfasis y contraste. El color en la publicidad: psicología y simbología. Tipografía: legibilidad, jerarquía visual y expresividad. Práctica guiada con ejercicios de composición.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-num">5–6</div>
+          <div class="tl-body">
+            <strong>Bocetaje y planificación del cartel</strong>
+            <p>Elección del tema o causa del cartel propio. Realización de bocetos a mano alzada. Selección y búsqueda de imágenes libres de derechos. Decisiones de diseño: paleta, tipografías, composición. Revisión docente y feedback formativo.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-num accent">7–8</div>
+          <div class="tl-body">
+            <strong>Creación digital del cartel</strong>
+            <p>Trabajo autónomo con la herramienta digital elegida. El/la docente realiza acompañamiento individualizado. Guardar versiones intermedias del trabajo. Redacción de la memoria explicativa.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-num">9</div>
+          <div class="tl-body">
+            <strong>Revisión, ajustes y autoevaluación</strong>
+            <p>Revisión del cartel con la rúbrica de autoevaluación. Ajustes finales según el feedback recibido. Preparación de la exposición oral breve.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-num accent">10</div>
+          <div class="tl-body">
+            <strong>Presentación y evaluación final</strong>
+            <p>Cada alumno/a presenta brevemente su cartel (2-3 minutos): mensaje, decisiones de diseño, proceso. Exposición colectiva en el aula (galería de carteles). Coevaluación entre iguales. Evaluación docente con rúbrica.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== -->
+    <!-- TAREA 6.1 CRITERIOS     -->
+    <!-- ======================== -->
+    <section class="section" id="criterios">
+      <span class="section-tag">Tarea 6.1 — Evaluación</span>
+      <h2>Criterios de Evaluación</h2>
+
+      <p>Los criterios de evaluación se enmarcan en la materia de Educación Plástica, Visual y Audiovisual de 3.º de ESO según el currículo LOMLOE y se articulan en torno a las competencias específicas de la materia.</p>
+
+      <div class="ce-box">
+        <span class="ce-num">CE 1</span>
+        <h4>Experimentación con el lenguaje visual y plástico</h4>
+        <p>Experimentar con los elementos del lenguaje visual y plástico, explorando sus posibilidades expresivas y comunicativas para crear composiciones con intención estética o comunicativa, utilizando recursos analógicos y digitales.</p>
+      </div>
+
+      <div class="ce-box">
+        <span class="ce-num">CE 2</span>
+        <h4>Análisis crítico de obras visuales y publicitarias</h4>
+        <p>Analizar obras plásticas, visuales y audiovisuales, identificando los elementos formales, técnicos y contextuales que las configuran, para desarrollar la capacidad de apreciación estética y juicio crítico ante los mensajes visuales del entorno.</p>
+      </div>
+
+      <div class="ce-box">
+        <span class="ce-num">CE 3</span>
+        <h4>Producción creativa con técnicas y herramientas digitales</h4>
+        <p>Producir obras y proyectos creativos mediante el uso de técnicas, recursos y herramientas diversas, incluyendo las digitales, mostrando iniciativa, autonomía y respeto por los derechos de autor y las licencias Creative Commons.</p>
+      </div>
+
+      <div class="ce-box">
+        <span class="ce-num">CE 4</span>
+        <h4>Competencia digital en diseño y comunicación visual</h4>
+        <p>Utilizar herramientas y aplicaciones digitales para la creación, edición y difusión de contenidos visuales, mostrando competencia digital y actitud crítica ante los medios de comunicación y la publicidad.</p>
+      </div>
+
+      <div class="ce-box">
+        <span class="ce-num">CE 5</span>
+        <h4>Comunicación y presentación del proceso creativo</h4>
+        <p>Comunicar de forma oral y escrita el proceso de creación del cartel, justificando las decisiones de diseño adoptadas y reflexionando sobre el aprendizaje realizado, mostrando capacidad de autoevaluación y metacognición.</p>
+      </div>
+    </section>
+
+    <!-- ======================== -->
+    <!-- TAREA 8.1 INSTRUMENTOS  -->
+    <!-- ======================== -->
+    <section class="section" id="instrumentos">
+      <span class="section-tag">Tarea 8.1 — Instrumentos</span>
+      <h2>Instrumentos de Evaluación</h2>
+
+      <h3>Rúbrica de evaluación del cartel publicitario</h3>
+      <p>Esta rúbrica evalúa el producto final. Cada criterio se valora del 1 al 4. La nota final se obtiene como media ponderada de todos los criterios.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Criterio</th>
+            <th>Excelente (4)</th>
+            <th>Notable (3)</th>
+            <th>Suficiente (2)</th>
+            <th>Insuficiente (1)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Originalidad y creatividad</td>
+            <td>Concepto muy original, sorprendente y personal. Solución visual innovadora.</td>
+            <td>Propuesta creativa con ideas propias, aunque con algunos elementos convencionales.</td>
+            <td>Idea básica con poca originalidad. Recurre a tópicos visuales.</td>
+            <td>Sin originalidad. Copia o imita sin aportar nada personal.</td>
+          </tr>
+          <tr>
+            <td>Uso de elementos del diseño (línea, color, forma, textura)</td>
+            <td>Dominio excelente de todos los elementos, usados con intención clara y coherente.</td>
+            <td>Buen uso de la mayoría de los elementos con intención comunicativa evidente.</td>
+            <td>Uso básico de los elementos, con algunos errores o inconsistencias.</td>
+            <td>Escaso o inadecuado uso de los elementos del diseño.</td>
+          </tr>
+          <tr>
+            <td>Composición y principios de diseño</td>
+            <td>Composición equilibrada, dinámica y con jerarquía visual clara. Aplica correctamente todos los principios.</td>
+            <td>Composición correcta con buen equilibrio general. Algún principio aplicado con menor precisión.</td>
+            <td>Composición básica. Desequilibrios evidentes o ausencia de jerarquía visual.</td>
+            <td>Composición desorganizada. No demuestra conocimiento de los principios de diseño.</td>
+          </tr>
+          <tr>
+            <td>Tipografía</td>
+            <td>Elección tipográfica excelente, legible, expresiva y coherente con el mensaje. Jerarquía tipográfica perfecta.</td>
+            <td>Buena elección tipográfica, legible y pertinente. Algún aspecto mejorable en la jerarquía.</td>
+            <td>Tipografía legible pero poco expresiva o inadecuada para el mensaje.</td>
+            <td>Tipografía ilegible, caótica o completamente inadecuada.</td>
+          </tr>
+          <tr>
+            <td>Eficacia comunicativa del mensaje</td>
+            <td>El mensaje se transmite de forma clara, directa e impactante. El cartel capta la atención inmediatamente.</td>
+            <td>El mensaje se entiende bien aunque podría ser más contundente o directo.</td>
+            <td>El mensaje es comprensible pero difuso o requiere esfuerzo para interpretarlo.</td>
+            <td>El mensaje no se entiende o es contradictorio con los elementos visuales.</td>
+          </tr>
+          <tr>
+            <td>Calidad técnica digital</td>
+            <td>Trabajo técnicamente impecable. Resolución correcta, acabados cuidados, sin errores visibles.</td>
+            <td>Buen acabado técnico con algún detalle menor mejorable.</td>
+            <td>Acabado básico con errores técnicos evidentes (pixelado, bordes sucios…).</td>
+            <td>Trabajo con errores técnicos graves que afectan a la presentación final.</td>
+          </tr>
+          <tr>
+            <td>Derechos de autor y licencias</td>
+            <td>Todas las imágenes son libres de derechos. Cita perfectamente la fuente y la licencia de cada recurso utilizado.</td>
+            <td>La mayoría de imágenes son libres. Cita la fuente aunque con alguna omisión menor.</td>
+            <td>Cita algunas fuentes. Alguna imagen de dudosa procedencia o sin licencia verificada.</td>
+            <td>No cita fuentes o usa imágenes con derechos reservados sin permiso.</td>
+          </tr>
+          <tr>
+            <td>Memoria explicativa</td>
+            <td>Memoria completa, bien redactada, que justifica con profundidad todas las decisiones de diseño.</td>
+            <td>Memoria correcta que justifica las decisiones principales aunque de forma breve.</td>
+            <td>Memoria incompleta o superficial, con poca reflexión sobre el proceso.</td>
+            <td>Memoria ausente o que no justifica ninguna decisión de diseño.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Lista de cotejo — Autoevaluación del alumnado</h3>
+      <p>Completa esta lista antes de entregar tu trabajo final:</p>
+
+      <div class="checklist">
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He analizado al menos 3 carteles publicitarios existentes e identificado sus elementos de diseño.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He realizado bocetos a mano alzada antes de empezar el diseño digital.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>Mi cartel incluye imagen principal, eslogan, texto secundario y logotipo o símbolo.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He elegido todas las imágenes respetando las licencias Creative Commons o de dominio público.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He citado correctamente la fuente y la licencia de cada imagen utilizada.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>La tipografía que he elegido es legible y coherente con el mensaje del cartel.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>La composición de mi cartel presenta equilibrio y jerarquía visual clara.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He exportado el cartel en alta calidad (PDF o PNG a mínimo 150 ppp).</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He redactado la memoria explicativa justificando mis decisiones de diseño.</span>
+        </div>
+        <div class="check-item">
+          <div class="check-box"></div>
+          <span>He revisado la ortografía de todos los textos de mi cartel y de la memoria.</span>
+        </div>
+      </div>
+
+      <h3>Instrumento de coevaluación</h3>
+      <p>Durante la sesión final, cada alumno/a valorará el cartel de un compañero o compañera usando los siguientes indicadores (escala 1-3):</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Indicador</th>
+            <th>Sí, claramente (3)</th>
+            <th>En parte (2)</th>
+            <th>No, o muy poco (1)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>El mensaje del cartel se entiende a primera vista</td>
+            <td class="nivel-4">Sí, de forma inmediata</td>
+            <td class="nivel-2">Requiere reflexión</td>
+            <td class="nivel-1">No se entiende bien</td>
+          </tr>
+          <tr>
+            <td>Los colores son atractivos y coherentes con el mensaje</td>
+            <td class="nivel-4">Totalmente</td>
+            <td class="nivel-2">Parcialmente</td>
+            <td class="nivel-1">No lo están</td>
+          </tr>
+          <tr>
+            <td>La tipografía es legible y adecuada</td>
+            <td class="nivel-4">Sí, es excelente</td>
+            <td class="nivel-2">Es legible aunque mejorable</td>
+            <td class="nivel-1">Es difícil de leer</td>
+          </tr>
+          <tr>
+            <td>El cartel resulta visualmente atractivo</td>
+            <td class="nivel-4">Sí, mucho</td>
+            <td class="nivel-2">Bastante</td>
+            <td class="nivel-1">Poco o nada</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ======================== -->
+    <!-- GUÍA DIDÁCTICA          -->
+    <!-- ======================== -->
+    <section class="section" id="guia">
+      <span class="section-tag">Docente — Guía Didáctica</span>
+      <h2>Guía Didáctica</h2>
+
+      <p>Esta página está dirigida al equipo docente que quiera aplicar esta Situación de Aprendizaje en el aula. Se incluyen orientaciones metodológicas, la relación de tareas con los criterios de evaluación y recomendaciones para la atención a la diversidad.</p>
+
+      <h3>Relación de actividades y criterios de evaluación</h3>
+
+      <table class="guia-table">
+        <thead>
+          <tr>
+            <th>Actividad / Tarea</th>
+            <th>Criterio de evaluación</th>
+            <th>Instrumento</th>
+            <th>Peso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Análisis de carteles (ses. 1-2)</td>
+            <td>CE 2 — Análisis crítico de obras visuales</td>
+            <td>Observación directa + ficha de análisis</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Ejercicios de composición (ses. 3-4)</td>
+            <td>CE 1 — Experimentación con lenguaje visual</td>
+            <td>Lista de cotejo del ejercicio</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Bocetos del cartel (ses. 5-6)</td>
+            <td>CE 3 — Producción creativa</td>
+            <td>Revisión docente + feedback formativo</td>
+            <td>15%</td>
+          </tr>
+          <tr>
+            <td>Cartel digital final (ses. 7-8)</td>
+            <td>CE 1, CE 3, CE 4 — Diseño, producción y competencia digital</td>
+            <td>Rúbrica de evaluación (criterios 1-7)</td>
+            <td>40%</td>
+          </tr>
+          <tr>
+            <td>Memoria explicativa</td>
+            <td>CE 5 — Comunicación del proceso creativo</td>
+            <td>Rúbrica de evaluación (criterio 8)</td>
+            <td>10%</td>
+          </tr>
+          <tr>
+            <td>Autoevaluación (ses. 9)</td>
+            <td>CE 5 — Metacognición y reflexión</td>
+            <td>Lista de cotejo de autoevaluación</td>
+            <td>5%</td>
+          </tr>
+          <tr>
+            <td>Presentación oral y coevaluación (ses. 10)</td>
+            <td>CE 2, CE 5 — Análisis crítico y comunicación</td>
+            <td>Rúbrica de coevaluación + observación</td>
+            <td>10%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Orientaciones metodológicas</h3>
+      <ul>
+        <li><strong>Aprendizaje basado en proyectos (ABP):</strong> todo el proyecto gira en torno a la creación de un producto real y significativo para el alumnado.</li>
+        <li><strong>Aprendizaje entre iguales:</strong> la sesión de coevaluación y la galería final fomentan el aprendizaje colaborativo y la cultura del feedback constructivo.</li>
+        <li><strong>Evaluación formativa continua:</strong> el/la docente realiza feedback en cada fase del proceso (no solo al final), especialmente durante el bocetaje y la creación digital.</li>
+        <li><strong>Autonomía y elección:</strong> el alumnado elige el tema de su cartel y la herramienta digital, lo que incrementa la motivación intrínseca.</li>
+      </ul>
+
+      <h3>Atención a la diversidad</h3>
+      <div class="callout">
+        <strong>Medidas de atención a la diversidad</strong>
+        <p>Alumnado con dificultades de escritura: puede desarrollar la memoria explicativa de forma oral (vídeo breve). Alumnado con dificultades motrices: puede usar exclusivamente herramientas digitales prescindiendo del boceto en papel. Alumnado con altas capacidades: se propone diseñar una campaña completa (cartel + mockup de aplicación en entorno real + análisis de impacto). Alumnado con dificultades visuales: se adaptan los tamaños mínimos de tipografía y se trabaja el contraste de color desde el inicio.</p>
+      </div>
+
+      <h3>Competencias específicas trabajadas</h3>
+      <ul>
+        <li>1.2.B2.2 — Adapta estrategias de colaboración a las funcionalidades de la plataforma digital.</li>
+        <li>2.2.B2.1 — Crea nuevas secuencias de aprendizaje integrando contenidos digitales diversos.</li>
+        <li>3.1.B2.1 — Transfiere prácticas innovadoras con tecnologías digitales al contexto educativo.</li>
+        <li>3.4.B2.1 — Diseña un ecosistema digital para que el alumnado planifique y comparta su aprendizaje.</li>
+        <li>6.3.B2.1 y 6.3.B2.2 — Propone al alumnado tecnologías diversas para crear contenido digital de calidad.</li>
+      </ul>
+    </section>
+
+    <!-- ======================== -->
+    <!-- METADATOS               -->
+    <!-- ======================== -->
+    <section class="section" id="metadatos">
+      <span class="section-tag">Información técnica</span>
+      <h2>Metadatos del Recurso</h2>
+
+      <p>Los metadatos permiten identificar, clasificar y reutilizar correctamente este recurso educativo.</p>
+
+      <div class="meta-grid">
+        <div class="meta-item">
+          <div class="mk">Título</div>
+          <div class="mv">El Diseño. El Cartel Publicitario</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Tipo de recurso</div>
+          <div class="mv">Situación de Aprendizaje (SdA)</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Idioma</div>
+          <div class="mv">Español</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Etapa educativa</div>
+          <div class="mv">Educación Secundaria Obligatoria</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Curso</div>
+          <div class="mv">3.º ESO</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Materia</div>
+          <div class="mv">Ed. Plástica, Visual y Audiovisual</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Marco curricular</div>
+          <div class="mv">LOMLOE</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Duración estimada</div>
+          <div class="mv">10 sesiones (~55 min. c/u)</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Licencia</div>
+          <div class="mv">CC BY-SA 4.0</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Herramienta de creación</div>
+          <div class="mv">eXeLearning 3</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Fecha de creación</div>
+          <div class="mv">Curso 2024–2025</div>
+        </div>
+        <div class="meta-item">
+          <div class="mk">Versión</div>
+          <div class="mv">1.0</div>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>Descripción para metadatos</strong>
+        <p>Situación de aprendizaje para 3.º de ESO (Educación Plástica, Visual y Audiovisual) en la que el alumnado analiza y crea un cartel publicitario digital aplicando los elementos y principios del diseño gráfico. Incluye análisis crítico de la publicidad, manejo de herramientas digitales de diseño, respeto a los derechos de autor y reflexión sobre la identidad digital.</p>
+      </div>
+    </section>
+
+  </div><!-- /content -->
+
+  <!-- ======================== -->
+  <!-- CRÉDITOS                 -->
+  <!-- ======================== -->
+  <section class="creditos" id="creditos">
+    <span class="section-tag">Página final</span>
+    <h2>Créditos</h2>
+
+    <div class="credit-grid">
+      <div class="credit-item">
+        <div class="label">Autoría</div>
+        <p>Docente<br>Especialidad: Educación Plástica, Visual y Audiovisual<br>Materia: 3.º ESO</p>
+      </div>
+      <div class="credit-item">
+        <div class="label">Descripción</div>
+        <p>Situación de Aprendizaje para 3.º de ESO sobre el diseño gráfico y el cartel publicitario. Creada con eXeLearning 3 para uso libre del profesorado, con licencia CC BY-SA 4.0.</p>
+      </div>
+      <div class="credit-item">
+        <div class="label">Licencia de uso</div>
+        <p>Este recurso se publica bajo licencia<br><strong>Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).</strong><br>Puedes usar, adaptar y redistribuir este material citando la autoría y manteniendo la misma licencia.</p>
+      </div>
+      <div class="credit-item">
+        <div class="label">Herramienta de creación</div>
+        <p>Creado con <strong>eXeLearning 3</strong> — herramienta libre y gratuita para la creación de contenidos educativos interactivos. Disponible en <em>exelearning.net</em></p>
+      </div>
+      <div class="credit-item">
+        <div class="label">Imágenes utilizadas</div>
+        <p>Las imágenes incluidas en este recurso son de uso libre (CC0 o CC BY) procedentes de Unsplash, Pixabay y Wikimedia Commons. La autoría y licencia de cada imagen se indica en el pie de cada elemento.</p>
+      </div>
+      <div class="credit-item">
+        <div class="label">Versión y fecha</div>
+        <p>Versión 1.0 — Curso académico 2024–2025<br>Última actualización: Abril 2025</p>
+      </div>
+    </div>
+
+    <a class="btn-download" href="eXeLearning_Cartel_Publicitario_3ESO.elp">
+      ⬇ Descargar archivo editable (.elp)
+    </a>
+
+    <p style="margin-top:24px; font-size:12px; color:rgba(255,255,255,0.35); max-width:600px; line-height:1.6;">
+      Al descargar el archivo editable (.elp) aceptas los términos de la licencia CC BY-SA 4.0. Deberás citar la autoría original si publicas versiones modificadas de este recurso.
+    </p>
+  </section>
+
+</main>
+
+<script>
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(sec => {
+      if (window.scrollY >= sec.offsetTop - 120) current = sec.getAttribute('id');
+    });
+    navLinks.forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  }, { passive: true });
+</script>
+
+</body>
+</html>
