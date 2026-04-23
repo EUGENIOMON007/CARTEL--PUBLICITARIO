@@ -108,7 +108,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:Home"></string>
+     <string value="exe-node:Inicio"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="children"></string>
@@ -116,7 +116,7 @@
       <instance class="exe.engine.node.Node" reference="4">
        <dictionary>
         <string role="key" value="_title"></string>
-        <string value=""></string>
+        <unicode value="EL DISEÑO. EL CARTEL PUBLICITARIO"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="2">
@@ -192,6 +192,8 @@
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;BIENVENIDO A ESTE PROYECTO DE APRENDIZAJE&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -216,7 +218,7 @@
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="4"></reference>
              </dictionary>
             </instance>
            </list>
@@ -249,20 +251,24 @@
         <unicode value="1"></unicode>
         <string role="key" value="_package"></string>
         <reference key="1"></reference>
+        <string role="key" value="anchor_fields"></string>
+        <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:Inicio:Tema"></string>
+        <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO"></string>
         <string role="key" value="parent"></string>
         <reference key="5"></reference>
+        <string role="key" value="top_anchors_linked_from_fields"></string>
+        <list></list>
         <string role="key" value="children"></string>
         <list>
          <instance class="exe.engine.node.Node" reference="8">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="PRESENTACIÓN DEL PROYECTO"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="6">
@@ -338,6 +344,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;PRESENTACIÓN DEL PROYECTO&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -362,7 +370,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="8"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -463,11 +471,21 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Descripción general&lt;br /&gt;Esta Situación de Aprendizaje invita al alumnado de 3.º de ESO a convertirse en diseñadores gráficos. Partiendo del análisis crítico de los carteles publicitarios que nos rodean a diario, exploraremos los fundamentos del diseño visual —elementos, principios y lenguaje gráfico— para crear, finalmente, un cartel publicitario propio que comunique un mensaje con eficacia, creatividad y responsabilidad ética.&lt;/p&gt;
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DESCRIPCIÓN GENERAL.&lt;/strong&gt;&lt;br /&gt;Esta Situación de Aprendizaje invita al alumnado de 3.º de ESO a convertirse en diseñadores gráficos. Partiendo del análisis crítico de los carteles publicitarios que nos rodean a diario, exploraremos los fundamentos del diseño visual —elementos, principios y lenguaje gráfico— para crear, finalmente, un cartel publicitario propio que comunique un mensaje con eficacia, creatividad y responsabilidad ética.&lt;/p&gt;
 &lt;p&gt;Vivimos inmersos en un universo visual. Las imágenes, los colores, las tipografías y los mensajes nos acompañan en cada pantalla, calle y revista. Saber leer ese lenguaje visual y ser capaces de producirlo es una competencia fundamental en el siglo XXI.&lt;/p&gt;
-&lt;p&gt;Justificación&lt;br /&gt;Esta SdA conecta el aprendizaje artístico con la realidad cotidiana del alumnado, al tiempo que fomenta el pensamiento crítico ante los medios de comunicación y la publicidad. Además, promueve el uso ético y creativo de las herramientas digitales y trabaja la identidad digital del alumnado desde un enfoque responsable y ciudadano.&lt;/p&gt;
-&lt;p&gt;Objetivos de aprendizaje&lt;br /&gt;Conocer y aplicar los elementos y principios del diseño gráfico (línea, color, forma, textura, composición, equilibrio, ritmo, énfasis).&lt;br /&gt;Analizar de forma crítica los recursos visuales empleados en la publicidad.&lt;br /&gt;Crear un cartel publicitario original respetando los derechos de autor y las licencias.&lt;br /&gt;Utilizar herramientas digitales para el diseño y la comunicación visual.&lt;br /&gt;Desarrollar la sensibilidad estética, el pensamiento creativo y la autonomía artística.&lt;br /&gt;Aplicar los principios de accesibilidad visual y atención a la diversidad en el diseño.&lt;br /&gt;Atención a la diversidad — DUA Este proyecto aplica los principios del Diseño Universal para el Aprendizaje (DUA): se ofrecen múltiples medios de representación (texto, imagen, vídeo), múltiples formas de acción y expresión (digital, manual, oral) y múltiples formas de implicación (elección del tema, trabajo individual o en pareja).&lt;br /&gt;Conexión curricular&lt;br /&gt;Competencias clave&lt;br /&gt;Competencia en comunicación lingüística (CCL)&lt;br /&gt;Competencia digital (CD)&lt;br /&gt;Competencia personal, social y de aprender a aprender (CPSAA)&lt;br /&gt;Competencia ciudadana (CC)&lt;br /&gt;Competencia emprendedora (CE)&lt;br /&gt;Competencia en conciencia y expresión culturales (CCEC)&lt;br /&gt;Saberes básicos&lt;br /&gt;Los elementos del lenguaje visual y plástico&lt;br /&gt;Principios de composición y diseño gráfico&lt;br /&gt;La comunicación visual: publicidad e imagen&lt;br /&gt;Herramientas digitales de diseño&lt;br /&gt;Derechos de autor y licencias Creative Commons&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;strong&gt;JUSTIFICACIÓN.&lt;/strong&gt;&lt;br /&gt;Esta SdA conecta el aprendizaje artístico con la realidad cotidiana del alumnado, al tiempo que fomenta el pensamiento crítico ante los medios de comunicación y la publicidad. Además, promueve el uso ético y creativo de las herramientas digitales y trabaja la identidad digital del alumnado desde un enfoque responsable y ciudadano.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OBJETIVOS DE APRENDIZAJE&lt;/strong&gt;&lt;br /&gt;1. Conocer y aplicar los elementos y principios del diseño gráfico (línea, color, forma, textura, composición, equilibrio, ritmo, énfasis).&lt;br /&gt;2. Analizar de forma crítica los recursos visuales empleados en la publicidad.&lt;br /&gt;3. Crear un cartel publicitario original respetando los derechos de autor y las licencias.&lt;br /&gt;4. Utilizar herramientas digitales para el diseño y la comunicación visual.&lt;br /&gt;5. Desarrollar la sensibilidad estética, el pensamiento creativo y la autonomía artística.&lt;br /&gt;6. Aplicar los principios de accesibilidad visual y atención a la diversidad en el diseño.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;ATENCIÓN A LA DIVERSIDAD.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Atención a la diversidad — DUA Este proyecto aplica los principios del Diseño Universal para el Aprendizaje (DUA): se ofrecen múltiples medios de representación (texto, imagen, vídeo), múltiples formas de acción y expresión (digital, manual, oral) y múltiples formas de implicación (elección del tema, trabajo individual o en pareja).&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;CONEXIÓN CURRICULAR&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Competencias clave&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;-Competencia en comunicación lingüística (CCL).&lt;br /&gt;-Competencia digital (CD).&lt;br /&gt;-Competencia personal, social y de aprender a aprender (CPSAA).&lt;br /&gt;-Competencia ciudadana (CC).&lt;br /&gt;-Competencia emprendedora (CE).&lt;br /&gt;-Competencia en conciencia y expresión culturales (CCEC).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SABERES BÁSICOS.&lt;/strong&gt;&lt;br /&gt;Los elementos del lenguaje visual y plástico&lt;br /&gt;Principios de composición y diseño gráfico&lt;br /&gt;La comunicación visual: publicidad e imagen&lt;br /&gt;Herramientas digitales de diseño&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -490,7 +508,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="8"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -523,14 +541,18 @@
            <unicode value="2"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:PRESENTACI%C3%93N%20DEL%20PROYECTO"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -538,7 +560,7 @@
          <instance class="exe.engine.node.Node" reference="13">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="PROTECCIÓN DE DATOS Y DERECHOS DIGITALES"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="11">
@@ -614,6 +636,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;PROTECCIÓN DE DATODS Y DERECHOS DIGITALES&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -638,7 +662,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="13"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -739,9 +763,15 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Durante esta Situación de Aprendizaje utilizarás herramientas digitales, crearás contenidos y trabajarás en entornos en línea. Es fundamental que conozcas tus derechos y responsabilidades como ciudadano digital.&lt;/p&gt;
-&lt;p&gt;🔒 Protección de datos personales&lt;br /&gt;No compartas datos personales en plataformas públicas (nombre completo, dirección, teléfono).&lt;br /&gt;Solo se recogerán los datos estrictamente necesarios para las actividades.&lt;br /&gt;Tienes derecho a acceder a tus datos, rectificarlos y solicitar su supresión (RGPD).&lt;br /&gt;Tus trabajos se compartirán solo con el permiso explícito del tutor/a.&lt;br /&gt;🎨 Derechos de autor y licencias&lt;br /&gt;Todas las imágenes, vídeos y audios tienen propietario. Comprueba siempre la licencia antes de usarlos.&lt;br /&gt;Usa el filtro de licencia Creative Commons (CC) al buscar imágenes.&lt;br /&gt;Cita siempre la fuente y el tipo de licencia de los contenidos que uses.&lt;br /&gt;Repositorios recomendados: Unsplash, Pixabay, Pexels, Wikimedia Commons.&lt;br /&gt;🧭 Identidad y huella digital&lt;br /&gt;Los contenidos que publiques en internet forman tu huella digital. Sé responsable.&lt;br /&gt;Tienes derecho a la propia imagen: no publiques fotos de otras personas sin su consentimiento.&lt;br /&gt;Piensa antes de publicar: ¿cómo te representa ese contenido?&lt;br /&gt;Gestiona tus perfiles digitales con criterio y responsabilidad.&lt;br /&gt;⚖️ Legislación de referencia&lt;br /&gt;Ley Orgánica 3/2018 (LOPDGDD) — Protección de Datos en España.&lt;br /&gt;Reglamento General de Protección de Datos (RGPD) — UE.&lt;br /&gt;Real Decreto-ley 14/2019 — Administración Digital.&lt;br /&gt;Ley de Propiedad Intelectual (Real Decreto Legislativo 1/1996).&lt;br /&gt;Tipos de licencias Creative CommonsCC BY (solo atribuir) · CC BY-SA (atribuir + compartir igual) · CC BY-NC (atribuir + no comercial) · CC BY-ND (atribuir + sin obras derivadas) · CC0 (dominio público). Para uso educativo, busca siempre licencias CC BY o CC0.&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;strong&gt;PROTECCIÓN DE DATOS PERSONALES. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;-No compartas datos personales en plataformas públicas (nombre completo, dirección, teléfono).&lt;br /&gt;-Solo se recogerán los datos estrictamente necesarios para las actividades.&lt;br /&gt;-Tienes derecho a acceder a tus datos, rectificarlos y solicitar su supresión (RGPD).&lt;br /&gt;-Tus trabajos se compartirán solo con el permiso explícito del tutor/a.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;DERECHOS DE AUTOR Y LICENCIAS.&lt;/strong&gt;&lt;br /&gt;-Todas las imágenes, vídeos y audios tienen propietario. Comprueba siempre la licencia antes de usarlos.&lt;br /&gt;-Usa el filtro de licencia Creative Commons (CC) al buscar imágenes.&lt;br /&gt;-Cita siempre la fuente y el tipo de licencia de los contenidos que uses.&lt;br /&gt;-Repositorios recomendados: Unsplash, Pixabay, Pexels, Wikimedia Commons.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;IDENTIDAD Y HUELLA DIGITAL.&lt;/strong&gt;&lt;br /&gt;-Los contenidos que publiques en internet forman tu huella digital. Sé responsable.&lt;br /&gt;-Tienes derecho a la propia imagen: no publiques fotos de otras personas sin su consentimiento.&lt;br /&gt;-Piensa antes de publicar: ¿cómo te representa ese contenido?&lt;br /&gt;-Gestiona tus perfiles digitales con criterio y responsabilidad.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;LEGISLACIÓN DE REFERENCIA.&lt;/strong&gt;&lt;br /&gt;-Ley Orgánica 3/2018 (LOPDGDD) — Protección de Datos en España.&lt;br /&gt;-Reglamento General de Protección de Datos (RGPD) — UE.&lt;br /&gt;-Real Decreto-ley 14/2019 — Administración Digital.&lt;br /&gt;-Ley de Propiedad Intelectual (Real Decreto Legislativo 1/1996).&lt;br /&gt;-Tipos de licencias Creative CommonsCC BY (solo atribuir) · CC BY-SA (atribuir + compartir igual) · CC BY-NC (atribuir + no comercial) · CC BY-ND (atribuir + sin obras derivadas) · CC0 (dominio público). Para uso educativo, busca siempre licencias CC BY o CC0.&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -764,7 +794,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="13"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -797,14 +827,18 @@
            <unicode value="4"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:PROTECCI%C3%93N%20DE%20DATOS%20Y%20DERECHOS%20DIGITALES"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -812,7 +846,7 @@
          <instance class="exe.engine.node.Node" reference="18">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="EL PRODUCTO FINAL"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="16">
@@ -888,6 +922,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;EL PRODUCTO FINAL&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -912,7 +948,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1013,9 +1049,16 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Al final de esta Situación de Aprendizaje habrás creado un cartel publicitario original en formato digital que demuestre tu dominio de los elementos del diseño y tu capacidad para comunicar un mensaje visual con eficacia y responsabilidad.&lt;/p&gt;
-&lt;p&gt;¿Qué vas a crear?&lt;br /&gt;ProductoUn cartel publicitario digital (formato A3, 297 × 420 mm, resolución mínima 150 ppp) acompañado de una memoria explicativa de una página.&lt;br /&gt;¿Qué puede promocionar tu cartel?&lt;br /&gt;Opción A — Una causa social o medioambiental (reciclaje, igualdad, salud mental, derechos digitales…).&lt;br /&gt;Opción B — Un producto o servicio ficticio de tu propia invención.&lt;br /&gt;Opción C — Un evento cultural, deportivo o escolar real o imaginado.&lt;br /&gt;Elementos obligatorios del cartel&lt;br /&gt;Imagen principal llamativa (fotografía, ilustración o composición digital).&lt;br /&gt;Titular o eslogan breve e impactante.&lt;br /&gt;Texto secundario o información complementaria (mínimo).&lt;br /&gt;Logotipo o símbolo identificativo.&lt;br /&gt;Uso consciente y justificado del color, la tipografía y la composición.&lt;br /&gt;Herramientas digitales sugeridas&lt;br /&gt;Diseño en línea (sin instalación)&lt;br /&gt;Canva — canva.com (gratuito con cuenta edu)&lt;br /&gt;Adobe Express — express.adobe.com&lt;br /&gt;Photopea — photopea.com (tipo Photoshop online)&lt;br /&gt;Software libre (instalable)&lt;br /&gt;GIMP — gimp.org (edición de imagen rasterizada)&lt;br /&gt;Inkscape — inkscape.org (diseño vectorial)&lt;br /&gt;Krita — krita.org (ilustración digital)&lt;br /&gt;Formato de entrega&lt;br /&gt;Archivo digital del cartel en PDF o PNG de alta calidad.&lt;br /&gt;Memoria explicativa (1 página máx.) con: descripción del mensaje, justificación de las decisiones de diseño (color, tipografía, composición), herramienta utilizada y licencias de las imágenes incorporadas.&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;strong&gt;¿QUÉ VAS A CREAR?&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Producto:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Un cartel publicitario digital (formato A3, 297 × 420 mm, resolución mínima 150 ppp) acompañado de una memoria explicativa de una página.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;¿QUÉ PUEDE PROMOCIONAR TU CARTEL?&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Opción A&lt;/strong&gt;&lt;/em&gt; — Una causa social o medioambiental (reciclaje, igualdad, salud mental, derechos digitales…).&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Opción B&lt;/strong&gt;&lt;/em&gt; — Un producto o servicio ficticio de tu propia invención.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Opción C&lt;/strong&gt;&lt;/em&gt; — Un evento cultural, deportivo o escolar real o imaginado.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ELEMENTOS DEL CARTEL&lt;/strong&gt;&lt;br /&gt;-Imagen principal llamativa (fotografía, ilustración o composición digital).&lt;br /&gt;-Titular o eslogan breve e impactante.&lt;br /&gt;-Texto secundario o información complementaria (mínimo).&lt;br /&gt;-Logotipo o símbolo identificativo.&lt;br /&gt;-Uso consciente y justificado del color, la tipografía y la composición.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HERRAMIENTAS DIGITALES SUGERIDAS:&lt;/strong&gt;&lt;br /&gt;-Canva — canva.com (gratuito con cuenta edu)&lt;br /&gt;-Adobe Express — express.adobe.com&lt;br /&gt;-Photopea — photopea.com (tipo Photoshop online)&lt;br /&gt;-Software libre (instalable)&lt;br /&gt;-GIMP — gimp.org (edición de imagen rasterizada)&lt;br /&gt;-Inkscape — inkscape.org (diseño vectorial)&lt;br /&gt;-Krita — krita.org (ilustración digital)&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;FORMATO DE ENTREGA&lt;/strong&gt;&lt;br /&gt;-Archivo digital del cartel en PDF o PNG de alta calidad.&lt;br /&gt;-Memoria explicativa (1 página máx.) con: descripción del mensaje, justificación de las decisiones de diseño (color, tipografía, composición), herramienta utilizada y licencias de las imágenes incorporadas.&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1038,7 +1081,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="18"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1071,14 +1114,18 @@
            <unicode value="5"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:EL%20PRODUCTO%20FINAL"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -1086,7 +1133,7 @@
          <instance class="exe.engine.node.Node" reference="23">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="CURACIÓN DE CONTENIDOS"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="21">
@@ -1162,6 +1209,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;CURACIÓN DE CONTENIDOS&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1186,7 +1235,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="23"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1287,11 +1336,22 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;A continuación encontrarás dos paneles de recursos curados: uno pensado para el equipo docente y otro diseñado para que el alumnado acceda directamente a los materiales de referencia que necesitará durante el proyecto.&lt;/p&gt;
-&lt;p&gt;Panel del docente — Wakelet&lt;br /&gt;Recurso para el profesoradoEste panel recoge recursos teóricos, referentes del diseño gráfico, artículos sobre publicidad crítica y tutoriales avanzados para el profesorado. Accede enwakelet.com/wake/2y2v6b00rMtU7wBc19I_j«El Diseño. El Cartel Publicitario – Recursos Docente».&lt;br /&gt;El panel del docente está organizado en las siguientes secciones:&lt;/p&gt;
-&lt;p&gt;Teoría del diseño: artículos y documentos sobre elementos y principios del diseño gráfico.&lt;br /&gt;Historia del cartel publicitario: referentes históricos desde el Art Nouveau hasta el diseño contemporáneo.&lt;br /&gt;Publicidad crítica: recursos para trabajar el análisis crítico de los medios con el alumnado.&lt;br /&gt;Herramientas digitales: tutoriales para Canva, GIMP, Inkscape y Adobe Express.&lt;br /&gt;DUA y atención a la diversidad: adaptaciones y recursos para alumnado con necesidades específicas.&lt;br /&gt;Evaluación: rúbricas, ejemplos de buenas prácticas y referentes evaluativos.&lt;br /&gt;Panel del alumnado — Padlet&lt;br /&gt;Recurso para el alumnadoEste tablero digital contiene todos los recursos que necesitarás durante el proyecto, organizados por fases de trabajo. Accede enpadlet.com/emonaybar/el-cartel-publicitario-recursos-alumnado-ak6dtjqqa3zx6kqu«El Cartel Publicitario – Recursos Alumnado».&lt;br /&gt;El panel del alumnado está organizado en las siguientes columnas:&lt;/p&gt;
-&lt;p&gt;Inspiración y referentes&lt;br /&gt;Carteles históricos icónicos del siglo XX&lt;br /&gt;Diseño gráfico contemporáneo&lt;br /&gt;Publicidad social y causas reales&lt;br /&gt;Ejemplos de carteles de compañeros/as de años anteriores&lt;br /&gt;Aprende a diseñar&lt;br /&gt;Tutorial básico de Canva (vídeo)&lt;br /&gt;Cómo usar capas en Photopea&lt;br /&gt;Principios de composición explicados&lt;br /&gt;Teoría del color para principiantes&lt;br /&gt;Recursos libres&lt;br /&gt;Imágenes CC: Unsplash, Pixabay, Pexels&lt;br /&gt;Tipografías: Google Fonts, DaFont (filtro gratuito)&lt;br /&gt;Paletas de color: Coolors.co, Adobe Color&lt;br /&gt;Iconos: Flaticon (filtro CC), The Noun Project&lt;br /&gt;Herramientas y entrega&lt;br /&gt;Cómo exportar en alta calidad desde Canva&lt;br /&gt;Guía para citar imágenes y fuentes&lt;br /&gt;Plantilla de la memoria explicativa&lt;br /&gt;Checklist de autoevaluación antes de entregar&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;strong&gt;PANEL DEL DOCENTE- Wakelet.&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Recurso para el profesorado:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Este panel recoge recursos teóricos, referentes del diseño gráfico, artículos sobre publicidad crítica y tutoriales avanzados para el profesorado. Accede enwakelet.com/wake/2y2v6b00rMtU7wBc19I_j«El Diseño. El Cartel Publicitario – Recursos Docente».&lt;br /&gt;El panel del docente está organizado en las siguientes secciones:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-Teoría del diseño:&lt;/strong&gt; artículos y documentos sobre elementos y principios del diseño gráfico.&lt;br /&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-Historia del cartel publicitario:&lt;/strong&gt; referentes históricos desde el Art Nouveau hasta el diseño contemporáneo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-Publicidad crítica:&lt;/strong&gt; recursos para trabajar el análisis crítico de los medios con el alumnado.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-Herramientas digitales:&lt;/strong&gt; tutoriales para Canva, GIMP, Inkscape y Adobe Express.DUA y atención a la diversidad: adaptaciones y recursos para alumnado con necesidades específicas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;-Evaluación:&lt;/strong&gt; rúbricas, ejemplos de buenas prácticas y referentes evaluativos.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;PANEL DEL ALMNADO — Padlet.&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;Recurso para el alumnado:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Este tablero digital contiene todos los recursos que necesitarás durante el proyecto, organizados por fases de trabajo. Accede enpadlet.com/emonaybar/el-cartel-publicitario-recursos-alumnado-ak6dtjqqa3zx6kqu«El Cartel Publicitario – Recursos Alumnado».&lt;br /&gt;El panel del alumnado está organizado en las siguientes columnas:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inspiración y referentes:&lt;/strong&gt;&lt;br /&gt;-Carteles históricos icónicos del siglo XX.&lt;br /&gt;-Diseño gráfico contemporáneo.&lt;br /&gt;-Publicidad social y causas reales.&lt;br /&gt;-Ejemplos de carteles de compañeros/as de años anteriores.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Aprende a diseñar:&lt;/strong&gt;&lt;br /&gt;-Tutorial básico de Canva (vídeo).&lt;br /&gt;-Cómo usar capas en Photopea.&lt;br /&gt;-Principios de composición explicados.&lt;br /&gt;-Teoría del color para principiantes.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;Recursos libres:&lt;/strong&gt;&lt;br /&gt;-Imágenes CC: Unsplash, Pixabay, Pexels.&lt;br /&gt;-Tipografías: Google Fonts, DaFont (filtro gratuito).&lt;br /&gt;-Paletas de color: Coolors.co, Adobe Color.&lt;br /&gt;-Iconos: Flaticon (filtro CC), The Noun Project.&lt;br /&gt;-Herramientas y entrega.&lt;br /&gt;-Cómo exportar en alta calidad desde Canva.&lt;br /&gt;-Guía para citar imágenes y fuentes.&lt;br /&gt;-Plantilla de la memoria explicativa.&lt;br /&gt;-Checklist de autoevaluación antes de entregar.&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1314,7 +1374,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="23"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1347,14 +1407,18 @@
            <unicode value="7"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:CURACI%C3%93N%20DE%20CONTENIDOS"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -1362,7 +1426,7 @@
          <instance class="exe.engine.node.Node" reference="28">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="LÍNEA TEMPORAL"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="26">
@@ -1438,6 +1502,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;LÍNEA TEMPORAL&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1462,7 +1528,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="28"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1563,6 +1629,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;El proyecto se desarrolla a lo largo de 10 sesiones de aproximadamente 55 minutos cada una. A continuación se presenta la planificación temporal orientativa:&lt;/p&gt;
 &lt;p&gt;1–2&lt;br /&gt;Análisis e introducción al diseño gráficoObservación y análisis crítico de carteles publicitarios reales. Identificación de elementos del diseño (línea, color, forma, textura, espacio). Lluvia de ideas y puesta en común. Rutina de pensamiento «Ver, Pensar, Preguntarse».&lt;br /&gt;3–4&lt;br /&gt;Principios de diseño y comunicación visualComposición, equilibrio, ritmo, énfasis y contraste. El color en la publicidad: psicología y simbología. Tipografía: legibilidad, jerarquía visual y expresividad. Práctica guiada con ejercicios de composición.&lt;br /&gt;5–6&lt;br /&gt;Bocetaje y planificación del cartelElección del tema o causa del cartel propio. Realización de bocetos a mano alzada. Selección y búsqueda de imágenes libres de derechos. Decisiones de diseño: paleta, tipografías, composición. Revisión docente y feedback formativo.&lt;br /&gt;7–8&lt;br /&gt;Creación digital del cartelTrabajo autónomo con la herramienta digital elegida. El/la docente realiza acompañamiento individualizado. Guardar versiones intermedias del trabajo. Redacción de la memoria explicativa.&lt;br /&gt;9&lt;br /&gt;Revisión, ajustes y autoevaluaciónRevisión del cartel con la rúbrica de autoevaluación. Ajustes finales según el feedback recibido. Preparación de la exposición oral breve.&lt;br /&gt;10&lt;br /&gt;Presentación y evaluación finalCada alumno/a presenta brevemente su cartel (2-3 minutos): mensaje, decisiones de diseño, proceso. Exposición colectiva en el aula (galería de carteles). Coevaluación entre iguales. Evaluación docente con rúbrica.&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -1588,7 +1656,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="28"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1621,14 +1689,18 @@
            <unicode value="8"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:L%C3%8DNEA%20TEMPORAL"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -1636,7 +1708,7 @@
          <instance class="exe.engine.node.Node" reference="33">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="CRITERIOS DE EVALUACIÓN"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="31">
@@ -1712,6 +1784,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;CRITERIOS DE EVALUACIÓN&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -1736,7 +1810,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="33"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1837,9 +1911,11 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Los criterios de evaluación se enmarcan en la materia de Educación Plástica, Visual y Audiovisual de 3.º de ESO según el currículo LOMLOE y se articulan en torno a las competencias específicas de la materia.&lt;/p&gt;
-&lt;p&gt;CE 1Experimentación con el lenguaje visual y plástico&lt;br /&gt;Experimentar con los elementos del lenguaje visual y plástico, explorando sus posibilidades expresivas y comunicativas para crear composiciones con intención estética o comunicativa, utilizando recursos analógicos y digitales.&lt;br /&gt;CE 2Análisis crítico de obras visuales y publicitarias&lt;br /&gt;Analizar obras plásticas, visuales y audiovisuales, identificando los elementos formales, técnicos y contextuales que las configuran, para desarrollar la capacidad de apreciación estética y juicio crítico ante los mensajes visuales del entorno.&lt;br /&gt;CE 3Producción creativa con técnicas y herramientas digitales&lt;br /&gt;Producir obras y proyectos creativos mediante el uso de técnicas, recursos y herramientas diversas, incluyendo las digitales, mostrando iniciativa, autonomía y respeto por los derechos de autor y las licencias Creative Commons.&lt;br /&gt;CE 4Competencia digital en diseño y comunicación visual&lt;br /&gt;Utilizar herramientas y aplicaciones digitales para la creación, edición y difusión de contenidos visuales, mostrando competencia digital y actitud crítica ante los medios de comunicación y la publicidad.&lt;br /&gt;CE 5Comunicación y presentación del proceso creativo&lt;br /&gt;Comunicar de forma oral y escrita el proceso de creación del cartel, justificando las decisiones de diseño adoptadas y reflexionando sobre el aprendizaje realizado, mostrando capacidad de autoevaluación y metacognición.&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Los &lt;em&gt;&lt;strong&gt;criterios de evaluación&lt;/strong&gt;&lt;/em&gt; se enmarcan en la materia de Educación Plástica, Visual y Audiovisual de 3.º de ESO según el currículo LOMLOE y se articulan en torno a las competencias específicas de la materia.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CE 1. Experimentación con el lenguaje visual y plástico.&lt;/strong&gt;&lt;br /&gt;Experimentar con los elementos del lenguaje visual y plástico, explorando sus posibilidades expresivas y comunicativas para crear composiciones con intención estética o comunicativa, utilizando recursos analógicos y digitales.&lt;br /&gt;&lt;strong&gt;CE .2. Análisis crítico de obras visuales y publicitarias.&lt;/strong&gt;&lt;br /&gt;Analizar obras plásticas, visuales y audiovisuales, identificando los elementos formales, técnicos y contextuales que las configuran, para desarrollar la capacidad de apreciación estética y juicio crítico ante los mensajes visuales del entorno.&lt;br /&gt;&lt;strong&gt;CE. 3. Producción creativa con técnicas y herramientas digitales.&lt;/strong&gt;&lt;br /&gt;Producir obras y proyectos creativos mediante el uso de técnicas, recursos y herramientas diversas, incluyendo las digitales, mostrando iniciativa, autonomía y respeto por los derechos de autor y las licencias Creative Commons.&lt;br /&gt;&lt;strong&gt;CE. 4.Competencia digital en diseño y comunicación visual.&lt;/strong&gt;&lt;br /&gt;Utilizar herramientas y aplicaciones digitales para la creación, edición y difusión de contenidos visuales, mostrando competencia digital y actitud crítica ante los medios de comunicación y la publicidad.&lt;br /&gt;&lt;strong&gt;CE. 5. Comunicación y presentación del proceso creativo.&lt;/strong&gt;&lt;br /&gt;Comunicar de forma oral y escrita el proceso de creación del cartel, justificando las decisiones de diseño adoptadas y reflexionando sobre el aprendizaje realizado, mostrando capacidad de autoevaluación y metacognición.&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -1862,7 +1938,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="33"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -1895,14 +1971,18 @@
            <unicode value="9"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:CRITERIOS%20DE%20EVALUACI%C3%93N"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -1910,7 +1990,7 @@
          <instance class="exe.engine.node.Node" reference="38">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="INSTRUMENTOS DE EVALUACIÓN"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="36">
@@ -1986,6 +2066,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;INSTRUMENTOS DE EVALUACIÓN&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -2010,7 +2092,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="38"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -2111,11 +2193,25 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Rúbrica de evaluación del cartel publicitario&lt;br /&gt;Esta rúbrica evalúa el producto final. Cada criterio se valora del 1 al 4. La nota final se obtiene como media ponderada de todos los criterios.&lt;/p&gt;
-&lt;p&gt;Criterio&lt;br /&gt;Excelente (4)&lt;br /&gt;Notable (3)&lt;br /&gt;Suficiente (2)&lt;br /&gt;Insuficiente (1)&lt;br /&gt;Originalidad y creatividad&lt;br /&gt;Concepto muy original, sorprendente y personal. Solución visual innovadora.&lt;br /&gt;Propuesta creativa con ideas propias, aunque con algunos elementos convencionales.&lt;br /&gt;Idea básica con poca originalidad. Recurre a tópicos visuales.&lt;br /&gt;Sin originalidad. Copia o imita sin aportar nada personal.&lt;br /&gt;Uso de elementos del diseño (línea, color, forma, textura)&lt;br /&gt;Dominio excelente de todos los elementos, usados con intención clara y coherente.&lt;br /&gt;Buen uso de la mayoría de los elementos con intención comunicativa evidente.&lt;br /&gt;Uso básico de los elementos, con algunos errores o inconsistencias.&lt;br /&gt;Escaso o inadecuado uso de los elementos del diseño.&lt;br /&gt;Composición y principios de diseño&lt;br /&gt;Composición equilibrada, dinámica y con jerarquía visual clara. Aplica correctamente todos los principios.&lt;br /&gt;Composición correcta con buen equilibrio general. Algún principio aplicado con menor precisión.&lt;br /&gt;Composición básica. Desequilibrios evidentes o ausencia de jerarquía visual.&lt;br /&gt;Composición desorganizada. No demuestra conocimiento de los principios de diseño.&lt;br /&gt;Tipografía&lt;br /&gt;Elección tipográfica excelente, legible, expresiva y coherente con el mensaje. Jerarquía tipográfica perfecta.&lt;br /&gt;Buena elección tipográfica, legible y pertinente. Algún aspecto mejorable en la jerarquía.&lt;br /&gt;Tipografía legible pero poco expresiva o inadecuada para el mensaje.&lt;br /&gt;Tipografía ilegible, caótica o completamente inadecuada.&lt;br /&gt;Eficacia comunicativa del mensaje&lt;br /&gt;El mensaje se transmite de forma clara, directa e impactante. El cartel capta la atención inmediatamente.&lt;br /&gt;El mensaje se entiende bien aunque podría ser más contundente o directo.&lt;br /&gt;El mensaje es comprensible pero difuso o requiere esfuerzo para interpretarlo.&lt;br /&gt;El mensaje no se entiende o es contradictorio con los elementos visuales.&lt;br /&gt;Calidad técnica digital&lt;br /&gt;Trabajo técnicamente impecable. Resolución correcta, acabados cuidados, sin errores visibles.&lt;br /&gt;Buen acabado técnico con algún detalle menor mejorable.&lt;br /&gt;Acabado básico con errores técnicos evidentes (pixelado, bordes sucios…).&lt;br /&gt;Trabajo con errores técnicos graves que afectan a la presentación final.&lt;br /&gt;Derechos de autor y licencias&lt;br /&gt;Todas las imágenes son libres de derechos. Cita perfectamente la fuente y la licencia de cada recurso utilizado.&lt;br /&gt;La mayoría de imágenes son libres. Cita la fuente aunque con alguna omisión menor.&lt;br /&gt;Cita algunas fuentes. Alguna imagen de dudosa procedencia o sin licencia verificada.&lt;br /&gt;No cita fuentes o usa imágenes con derechos reservados sin permiso.&lt;br /&gt;Memoria explicativa&lt;br /&gt;Memoria completa, bien redactada, que justifica con profundidad todas las decisiones de diseño.&lt;br /&gt;Memoria correcta que justifica las decisiones principales aunque de forma breve.&lt;br /&gt;Memoria incompleta o superficial, con poca reflexión sobre el proceso.&lt;br /&gt;Memoria ausente o que no justifica ninguna decisión de diseño.&lt;br /&gt;Lista de cotejo — Autoevaluación del alumnado&lt;br /&gt;Completa esta lista antes de entregar tu trabajo final:&lt;/p&gt;
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;strong&gt;Rúbrica de evaluación del cartel publicitario.&lt;/strong&gt;&lt;br /&gt;Esta rúbrica evalúa el producto final. Cada criterio se valora del 1 al 4. La nota final se obtiene como media ponderada de todos los criterios.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CRITERIO.&lt;/strong&gt;&lt;br /&gt;-Excelente (4)&lt;br /&gt;-Notable (3)&lt;br /&gt;-Suficiente (2)&lt;br /&gt;-Insuficiente (1)&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;ORIGINALIDAD Y CREATIVIDAD.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;-Concepto muy original, sorprendente y personal. Solución visual innovadora.&lt;br /&gt;-Propuesta creativa con ideas propias, aunque con algunos elementos convencionales.&lt;br /&gt;-Idea básica con poca originalidad. Recurre a tópicos visuales.&lt;br /&gt;-Sin originalidad. Copia o imita sin aportar nada personal.&lt;br /&gt;-Uso de elementos del diseño (línea, color, forma, textura)&lt;br /&gt;-Dominio excelente de todos los elementos, usados con intención clara y coherente.&lt;br /&gt;-Buen uso de la mayoría de los elementos con intención comunicativa evidente.&lt;br /&gt;-Uso básico de los elementos, con algunos errores o inconsistencias.&lt;br /&gt;-Escaso o inadecuado uso de los elementos del diseño.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;COMPOSICIÓN Y PRINCIPIOS DEL DISEÑO.&lt;/strong&gt;&lt;br /&gt;-Composición equilibrada, dinámica y con jerarquía visual clara. Aplica correctamente todos los principios.&lt;br /&gt;-Composición correcta con buen equilibrio general. Algún principio aplicado con menor precisión.&lt;br /&gt;-Composición básica. Desequilibrios evidentes o ausencia de jerarquía visual.&lt;br /&gt;-Composición desorganizada. No demuestra conocimiento de los principios de diseño.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;TIPOGRAFIA.&lt;/strong&gt;&lt;br /&gt;-Elección tipográfica excelente, legible, expresiva y coherente con el mensaje. Jerarquía tipográfica perfecta.&lt;br /&gt;-Buena elección tipográfica, legible y pertinente. Algún aspecto mejorable en la jerarquía.&lt;br /&gt;-Tipografía legible pero poco expresiva o inadecuada para el mensaje.&lt;br /&gt;-Tipografía ilegible, caótica o completamente inadecuada.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;strong&gt;EFICACIA COMUNICATIVA EN EL MENSAJE.&lt;/strong&gt;&lt;br /&gt;-El mensaje se transmite de forma clara, directa e impactante. El cartel capta la atención inmediatamente.&lt;br /&gt;-El mensaje se entiende bien aunque podría ser más contundente o directo.&lt;br /&gt;-El mensaje es comprensible pero difuso o requiere esfuerzo para interpretarlo.&lt;br /&gt;-El mensaje no se entiende o es contradictorio con los elementos visuales.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;CALIDAD TÉCNICA DIGITAL.&lt;/strong&gt;&lt;br /&gt;-Trabajo técnicamente impecable. Resolución correcta, acabados cuidados, sin errores visibles.&lt;br /&gt;-Buen acabado técnico con algún detalle menor mejorable.&lt;br /&gt;-Acabado básico con errores técnicos evidentes (pixelado, bordes sucios…).&lt;br /&gt;-Trabajo con errores técnicos graves que afectan a la presentación final.&lt;br /&gt;&lt;strong&gt;DERECHOS Y LICENCIAS.&lt;/strong&gt;&lt;br /&gt;-Todas las imágenes son libres de derechos.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;-Cita perfectamente la fuente y la licencia de cada recurso utilizado.&lt;br /&gt;-La mayoría de imágenes son libres.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;-Cita la fuente aunque con alguna omisión menor. Cita algunas fuentes. Alguna imagen de dudosa procedencia o sin licencia verificada.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;-No cita fuentes o usa imágenes con derechos reservados sin permiso.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;MEMORIA EXPLICATIVA.&lt;/strong&gt;&lt;br /&gt;-Memoria completa, bien redactada, que justifica con profundidad todas las decisiones de diseño.&lt;br /&gt;-Memoria correcta que justifica las decisiones principales aunque de forma breve.&lt;br /&gt;-Memoria incompleta o superficial, con poca reflexión sobre el proceso.&lt;br /&gt;-Memoria ausente o que no justifica ninguna decisión de diseño.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;LISTA DECOTEJO. &lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;Autoevaluación del alumnado&lt;br /&gt;Completa esta lista antes de entregar tu trabajo final:&lt;/p&gt;
 &lt;p&gt; &lt;br /&gt;He analizado al menos 3 carteles publicitarios existentes e identificado sus elementos de diseño.&lt;br /&gt; &lt;br /&gt;He realizado bocetos a mano alzada antes de empezar el diseño digital.&lt;br /&gt; &lt;br /&gt;Mi cartel incluye imagen principal, eslogan, texto secundario y logotipo o símbolo.&lt;br /&gt; &lt;br /&gt;He elegido todas las imágenes respetando las licencias Creative Commons o de dominio público.&lt;br /&gt; &lt;br /&gt;He citado correctamente la fuente y la licencia de cada imagen utilizada.&lt;br /&gt; &lt;br /&gt;La tipografía que he elegido es legible y coherente con el mensaje del cartel.&lt;br /&gt; &lt;br /&gt;La composición de mi cartel presenta equilibrio y jerarquía visual clara.&lt;br /&gt; &lt;br /&gt;He exportado el cartel en alta calidad (PDF o PNG a mínimo 150 ppp).&lt;br /&gt; &lt;br /&gt;He redactado la memoria explicativa justificando mis decisiones de diseño.&lt;br /&gt; &lt;br /&gt;He revisado la ortografía de todos los textos de mi cartel y de la memoria.&lt;br /&gt;Instrumento de coevaluación&lt;br /&gt;Durante la sesión final, cada alumno/a valorará el cartel de un compañero o compañera usando los siguientes indicadores (escala 1-3):&lt;/p&gt;
-&lt;p&gt;Indicador&lt;br /&gt;Sí, claramente (3)&lt;br /&gt;En parte (2)&lt;br /&gt;No, o muy poco (1)&lt;br /&gt;El mensaje del cartel se entiende a primera vista&lt;br /&gt;Sí, de forma inmediata&lt;br /&gt;Requiere reflexión&lt;br /&gt;No se entiende bien&lt;br /&gt;Los colores son atractivos y coherentes con el mensaje&lt;br /&gt;Totalmente&lt;br /&gt;Parcialmente&lt;br /&gt;No lo están&lt;br /&gt;La tipografía es legible y adecuada&lt;br /&gt;Sí, es excelente&lt;br /&gt;Es legible aunque mejorable&lt;br /&gt;Es difícil de leer&lt;br /&gt;El cartel resulta visualmente atractivo&lt;br /&gt;Sí, mucho&lt;br /&gt;Bastante&lt;br /&gt;Poco o nada&lt;/p&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Indicador&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;-Sí, claramente (3)&lt;br /&gt;-En parte (2)&lt;br /&gt;-No, o muy poco (1)&lt;br /&gt;&lt;em&gt;&lt;strong&gt;El mensaje del cartel se entiende a primera vista.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;-Sí, de forma inmediata&lt;br /&gt;-Requiere reflexión&lt;br /&gt;-No se entiende bien&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Los colores son atractivos y coherentes con el mensaje.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;-Totalmente&lt;br /&gt;-Parcialmente&lt;br /&gt;-No lo están&lt;br /&gt;&lt;em&gt;&lt;strong&gt;La tipografía es legible y adecuada&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;-Sí, es excelente&lt;br /&gt;-Es legible aunque mejorable&lt;br /&gt;-Es difícil de leer&lt;br /&gt;&lt;em&gt;&lt;strong&gt;El cartel resulta visualmente atractivo&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;-Sí, mucho&lt;br /&gt;-Bastante&lt;br /&gt;-Poco o nada&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2138,7 +2234,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="38"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -2171,14 +2267,18 @@
            <unicode value="10"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:INSTRUMENTOS%20DE%20EVALUACI%C3%93N"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -2186,7 +2286,7 @@
          <instance class="exe.engine.node.Node" reference="43">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="GUÍA DIDÁCTICA"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="41">
@@ -2262,6 +2362,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;GUÍA DIDÁCTICA&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -2286,7 +2388,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="43"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -2387,9 +2489,16 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Esta página está dirigida al equipo docente que quiera aplicar esta Situación de Aprendizaje en el aula. Se incluyen orientaciones metodológicas, la relación de tareas con los criterios de evaluación y recomendaciones para la atención a la diversidad.&lt;/p&gt;
-&lt;p&gt;Relación de actividades y criterios de evaluación&lt;br /&gt;Actividad / Tarea&lt;br /&gt;Criterio de evaluación&lt;br /&gt;Instrumento&lt;br /&gt;Peso&lt;br /&gt;Análisis de carteles (ses. 1-2)&lt;br /&gt;CE 2 — Análisis crítico de obras visuales&lt;br /&gt;Observación directa + ficha de análisis&lt;br /&gt;10%&lt;br /&gt;Ejercicios de composición (ses. 3-4)&lt;br /&gt;CE 1 — Experimentación con lenguaje visual&lt;br /&gt;Lista de cotejo del ejercicio&lt;br /&gt;10%&lt;br /&gt;Bocetos del cartel (ses. 5-6)&lt;br /&gt;CE 3 — Producción creativa&lt;br /&gt;Revisión docente + feedback formativo&lt;br /&gt;15%&lt;br /&gt;Cartel digital final (ses. 7-8)&lt;br /&gt;CE 1, CE 3, CE 4 — Diseño, producción y competencia digital&lt;br /&gt;Rúbrica de evaluación (criterios 1-7)&lt;br /&gt;40%&lt;br /&gt;Memoria explicativa&lt;br /&gt;CE 5 — Comunicación del proceso creativo&lt;br /&gt;Rúbrica de evaluación (criterio 8)&lt;br /&gt;10%&lt;br /&gt;Autoevaluación (ses. 9)&lt;br /&gt;CE 5 — Metacognición y reflexión&lt;br /&gt;Lista de cotejo de autoevaluación&lt;br /&gt;5%&lt;br /&gt;Presentación oral y coevaluación (ses. 10)&lt;br /&gt;CE 2, CE 5 — Análisis crítico y comunicación&lt;br /&gt;Rúbrica de coevaluación + observación&lt;br /&gt;10%&lt;br /&gt;Orientaciones metodológicas&lt;br /&gt;Aprendizaje basado en proyectos (ABP): todo el proyecto gira en torno a la creación de un producto real y significativo para el alumnado.&lt;br /&gt;Aprendizaje entre iguales: la sesión de coevaluación y la galería final fomentan el aprendizaje colaborativo y la cultura del feedback constructivo.&lt;br /&gt;Evaluación formativa continua: el/la docente realiza feedback en cada fase del proceso (no solo al final), especialmente durante el bocetaje y la creación digital.&lt;br /&gt;Autonomía y elección: el alumnado elige el tema de su cartel y la herramienta digital, lo que incrementa la motivación intrínseca.&lt;br /&gt;Atención a la diversidad&lt;br /&gt;Medidas de atención a la diversidadAlumnado con dificultades de escritura: puede desarrollar la memoria explicativa de forma oral (vídeo breve). Alumnado con dificultades motrices: puede usar exclusivamente herramientas digitales prescindiendo del boceto en papel. Alumnado con altas capacidades: se propone diseñar una campaña completa (cartel + mockup de aplicación en entorno real + análisis de impacto). Alumnado con dificultades visuales: se adaptan los tamaños mínimos de tipografía y se trabaja el contraste de color desde el inicio.&lt;br /&gt;Competencias específicas trabajadas&lt;br /&gt;1.2.B2.2 — Adapta estrategias de colaboración a las funcionalidades de la plataforma digital.&lt;br /&gt;2.2.B2.1 — Crea nuevas secuencias de aprendizaje integrando contenidos digitales diversos.&lt;br /&gt;3.1.B2.1 — Transfiere prácticas innovadoras con tecnologías digitales al contexto educativo.&lt;br /&gt;3.4.B2.1 — Diseña un ecosistema digital para que el alumnado planifique y comparta su aprendizaje.&lt;br /&gt;6.3.B2.1 y 6.3.B2.2 — Propone al alumnado tecnologías diversas para crear contenido digital de calidad.&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Esta página está dirigida al equipo docente que quiera aplicar esta Situación de Aprendizaje en el aula. Se incluyen orientaciones metodológicas, la relación de tareas con los criterios de evaluación y recomendaciones para la atención a la diversidad.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;RELACIÓN DE ACTIVIDADES Y CRITERIOS DE EVALUACIÓN.&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;-Actividad / Tarea.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;-Criterio de evaluación.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;-Instrumento.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;-Peso.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;Análisis de carteles (ses. 1-2):&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;CE 2 — Análisis crítico de obras visuales.&lt;br /&gt;Observación directa + ficha de análisis = 10%.&lt;br /&gt;&lt;strong&gt;&lt;em&gt;Ejercicios de composición (ses. 3-4):&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;CE 1 — Experimentación con lenguaje visual&lt;br /&gt;Lista de cotejo del ejercicio = 10%.&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Bocetos del cartel (ses. 5-6):&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;CE 3 — Producción creativa&lt;br /&gt;Revisión docente + feedback formativo =15%.&lt;br /&gt;&lt;strong&gt;&lt;em&gt;Cartel digital final (ses. 7-8):&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;CE 1, CE 3, CE 4 — Diseño, producción y competencia digital.&lt;br /&gt;Rúbrica de evaluación (criterios 1-7) = 40%.&lt;br /&gt;&lt;strong&gt;&lt;em&gt;Memoria explicativa:&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;CE 5 — Comunicación del proceso creativo.&lt;br /&gt;Rúbrica de evaluación (criterio 8) = 10%.&lt;br /&gt;&lt;strong&gt;&lt;em&gt;Autoevaluación (ses. 9):&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;CE 5 — Metacognición y reflexión.&lt;br /&gt;Lista de cotejo de autoevaluación = 5%.&lt;br /&gt;&lt;strong&gt;&lt;em&gt;Presentación oral y coevaluación (ses. 10):&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;CE 2, CE 5 — Análisis crítico y comunicación.&lt;br /&gt;Rúbrica de coevaluación + observación = 10%.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;ORIENTACIONES METODOLÓGICAS.&lt;/strong&gt;&lt;br /&gt;-Aprendizaje basado en proyectos (ABP): todo el proyecto gira en torno a la creación de un producto real y significativo para el alumnado.&lt;br /&gt;-Aprendizaje entre iguales: la sesión de coevaluación y la galería final fomentan el aprendizaje colaborativo y la cultura del feedback constructivo.&lt;br /&gt;-Evaluación formativa continua: el/la docente realiza feedback en cada fase del proceso (no solo al final), especialmente durante el bocetaje y la creación digital.&lt;br /&gt;-Autonomía y elección: el alumnado elige el tema de su cartel y la herramienta digital, lo que incrementa la motivación intrínseca.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;ATENCIÓN A LA DIVERSIDAD.&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;&lt;strong&gt;Medidas de atención a la diversidad:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;-Alumnado con dificultades de escritura: puede desarrollar la memoria explicativa de forma oral (vídeo breve). Alumnado con dificultades motrices: puede usar exclusivamente herramientas digitales prescindiendo del boceto en papel.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;-Alumnado con altas capacidades: se propone diseñar una campaña completa (cartel + mockup de aplicación en entorno real + análisis de impacto). Alumnado con dificultades visuales: se adaptan los tamaños mínimos de tipografía y se trabaja el contraste de color desde el inicio.&lt;/p&gt;
+&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;br /&gt;&lt;strong&gt;COMPETENCIAS ESPECÍFICAS TRABAJADAS.&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;1.2.B2.2 — Adapta estrategias de colaboración a las funcionalidades de la plataforma digital.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;2.2.B2.1 — Crea nuevas secuencias de aprendizaje integrando contenidos digitales diversos.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;3.1.B2.1 — Transfiere prácticas innovadoras con tecnologías digitales al contexto educativo.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;3.4.B2.1 — Diseña un ecosistema digital para que el alumnado planifique y comparta su aprendizaje.&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;&lt;em&gt;6.3.B2.1 y 6.3.B2.2 — Propone al alumnado tecnologías diversas para crear contenido digital de calidad.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2412,7 +2521,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="43"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -2513,6 +2622,8 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
                  <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Los metadatos permiten identificar, clasificar y reutilizar correctamente este recurso educativo.&lt;/p&gt;
 &lt;p&gt;Título&lt;br /&gt;El Diseño. El Cartel Publicitario&lt;br /&gt;Tipo de recurso&lt;br /&gt;Situación de Aprendizaje (SdA)&lt;br /&gt;Idioma&lt;br /&gt;Español&lt;br /&gt;Etapa educativa&lt;br /&gt;Educación Secundaria Obligatoria&lt;br /&gt;Curso&lt;br /&gt;3.º ESO&lt;br /&gt;Materia&lt;br /&gt;Ed. Plástica, Visual y Audiovisual&lt;br /&gt;Marco curricular&lt;br /&gt;LOMLOE&lt;br /&gt;Duración estimada&lt;br /&gt;10 sesiones (~55 min. c/u)&lt;br /&gt;Licencia&lt;br /&gt;CC BY-SA 4.0&lt;br /&gt;Herramienta de creación&lt;br /&gt;eXeLearning 3&lt;br /&gt;Fecha de creación&lt;br /&gt;Curso 2024–2025&lt;br /&gt;Versión&lt;br /&gt;1.0&lt;br /&gt;Descripción para metadatosSituación de aprendizaje para 3.º de ESO (Educación Plástica, Visual y Audiovisual) en la que el alumnado analiza y crea un cartel publicitario digital aplicando los elementos y principios del diseño gráfico. Incluye análisis crítico de la publicidad, manejo de herramientas digitales de diseño, respeto a los derechos de autor y reflexión sobre la identidad digital.&lt;/p&gt;&lt;/div&gt;"></unicode>
@@ -2538,7 +2649,7 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="43"></reference>
                 </dictionary>
                </instance>
               </list>
@@ -2571,14 +2682,18 @@
            <unicode value="11"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:GU%C3%8DA%20DID%C3%81CTICA"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -2586,13 +2701,13 @@
          <instance class="exe.engine.node.Node" reference="50">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="METADATOS DEL CURSO"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="48">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="CRÉDITOS"></unicode>
+              <unicode value="METADATOS DEL RECURSO"></unicode>
               <string role="key" value="_attributes"></string>
               <list>
                <tuple>
@@ -2653,7 +2768,7 @@
                <instance class="exe.engine.field.TextAreaField" reference="49">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="141_2"></unicode>
+                 <unicode value="153_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="48"></reference>
                  <string role="key" value="_instruc"></string>
@@ -2662,8 +2777,10 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;CRÉDITOS&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;METADATOS DEL RECRUSO&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2686,14 +2803,14 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="50"></reference>
                 </dictionary>
                </instance>
               </list>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="9"></unicode>
+              <unicode value="21"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -2717,7 +2834,7 @@
             <instance class="exe.engine.jsidevice.JsIdevice" reference="51">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="CRÉDITOS"></unicode>
+              <unicode value="METADATOS DEL RECURSO"></unicode>
               <string role="key" value="_attributes"></string>
               <list>
                <tuple>
@@ -2778,7 +2895,7 @@
                <instance class="exe.engine.field.TextAreaField" reference="52">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="152_2"></unicode>
+                 <unicode value="154_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="51"></reference>
                  <string role="key" value="_instruc"></string>
@@ -2787,8 +2904,48 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Autoría&lt;br /&gt;Docente&lt;br /&gt;Especialidad: Educación Plástica, Visual y Audiovisual&lt;br /&gt;Materia: 3.º ESO&lt;br /&gt;Descripción&lt;br /&gt;Situación de Aprendizaje para 3.º de ESO sobre el diseño gráfico y el cartel publicitario. Creada con eXeLearning 3 para uso libre del profesorado, con licencia CC BY-SA 4.0.&lt;br /&gt;Licencia de uso&lt;br /&gt;Este recurso se publica bajo licencia&lt;br /&gt;Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).&lt;br /&gt;Puedes usar, adaptar y redistribuir este material citando la autoría y manteniendo la misma licencia.&lt;br /&gt;Herramienta de creación&lt;br /&gt;Creado con eXeLearning 3 — herramienta libre y gratuita para la creación de contenidos educativos interactivos. Disponible en exelearning.net&lt;br /&gt;Imágenes utilizadas&lt;br /&gt;Las imágenes incluidas en este recurso son de uso libre (CC0 o CC BY) procedentes de Unsplash, Pixabay y Wikimedia Commons. La autoría y licencia de cada imagen se indica en el pie de cada elemento.&lt;br /&gt;Versión y fecha&lt;br /&gt;Versión 1.0 — Curso académico 2024–2025&lt;br /&gt;Última actualización: Abril 2025&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Los metadatos permiten identificar, clasificar y reutilizar correctamente este recurso educativo.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table border=&quot;1&quot; style=&quot;width: 100%; height: 218px;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Título&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;El Diseño. El Cartel Publicitario&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Tipo de recurso&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;Situación de Aprendizaje (SdA)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Idioma&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;Español&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Etapa educativa&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;Educación Secundaria Obligatoria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Curso&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;3º ESO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Materia&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;Ed. Plástica, Visual y Audiovisual&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Marco curricular&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;LOMLOE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;height: 26px;&quot;&gt;
+&lt;td style=&quot;width: 17.6587%; height: 26px;&quot;&gt;Duración estimada&lt;/td&gt;
+&lt;td style=&quot;width: 82.3413%; height: 26px;&quot;&gt;10 sesiones (~55 min. c/u)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;Situación de aprendizaje para 3.º de ESO (Educación Plástica, Visual y Audiovisual) en la que el alumnado analiza y crea un cartel publicitario digital aplicando los elementos y principios del diseño gráfico. Incluye análisis crítico de la publicidad, manejo de herramientas digitales de diseño, respeto a los derechos de autor y reflexión sobre la identidad digital.&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2811,14 +2968,14 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="50"></reference>
                 </dictionary>
                </instance>
               </list>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="20"></unicode>
+              <unicode value="22"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -2841,17 +2998,21 @@
             </instance>
            </list>
            <string role="key" value="_id"></string>
-           <unicode value="12"></unicode>
+           <unicode value="13"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:METADATOS%20DEL%20CURSO"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -2859,13 +3020,13 @@
          <instance class="exe.engine.node.Node" reference="55">
           <dictionary>
            <string role="key" value="_title"></string>
-           <string value=""></string>
+           <unicode value="CRÉDITOS"></unicode>
            <string role="key" value="idevices"></string>
            <list>
             <instance class="exe.engine.jsidevice.JsIdevice" reference="53">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="METADATOS DEL RECURSO"></unicode>
+              <unicode value="CRÉDITOS"></unicode>
               <string role="key" value="_attributes"></string>
               <list>
                <tuple>
@@ -2926,7 +3087,7 @@
                <instance class="exe.engine.field.TextAreaField" reference="54">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="153_2"></unicode>
+                 <unicode value="141_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="53"></reference>
                  <string role="key" value="_instruc"></string>
@@ -2935,8 +3096,10 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;METADATOS DEL RECRUSO&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;CRÉDITOS&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -2959,14 +3122,14 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="55"></reference>
                 </dictionary>
                </instance>
               </list>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="21"></unicode>
+              <unicode value="9"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -2990,7 +3153,7 @@
             <instance class="exe.engine.jsidevice.JsIdevice" reference="56">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="METADATOS DEL RECURSO"></unicode>
+              <unicode value="CRÉDITOS"></unicode>
               <string role="key" value="_attributes"></string>
               <list>
                <tuple>
@@ -3051,7 +3214,7 @@
                <instance class="exe.engine.field.TextAreaField" reference="57">
                 <dictionary>
                  <string role="key" value="_id"></string>
-                 <unicode value="154_2"></unicode>
+                 <unicode value="152_2"></unicode>
                  <string role="key" value="_idevice"></string>
                  <reference key="56"></reference>
                  <string role="key" value="_instruc"></string>
@@ -3060,9 +3223,38 @@
                  <string value=""></string>
                  <string role="key" value="anchor_names"></string>
                  <list></list>
+                 <string role="key" value="anchors_linked_from_fields"></string>
+                 <dictionary></dictionary>
                  <string role="key" value="content_w_resourcePaths"></string>
-                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Los metadatos permiten identificar, clasificar y reutilizar correctamente este recurso educativo.&lt;/p&gt;
-&lt;p&gt;Título&lt;br /&gt;El Diseño. El Cartel Publicitario&lt;br /&gt;Tipo de recurso&lt;br /&gt;Situación de Aprendizaje (SdA)&lt;br /&gt;Idioma&lt;br /&gt;Español&lt;br /&gt;Etapa educativa&lt;br /&gt;Educación Secundaria Obligatoria&lt;br /&gt;Curso&lt;br /&gt;3.º ESO&lt;br /&gt;Materia&lt;br /&gt;Ed. Plástica, Visual y Audiovisual&lt;br /&gt;Marco curricular&lt;br /&gt;LOMLOE&lt;br /&gt;Duración estimada&lt;br /&gt;10 sesiones (~55 min. c/u)&lt;br /&gt;Licencia&lt;br /&gt;CC BY-SA 4.0&lt;br /&gt;Herramienta de creación&lt;br /&gt;eXeLearning 3&lt;br /&gt;Fecha de creación&lt;br /&gt;Curso 2024–2025&lt;br /&gt;Versión&lt;br /&gt;1.0&lt;br /&gt;Descripción para metadatosSituación de aprendizaje para 3.º de ESO (Educación Plástica, Visual y Audiovisual) en la que el alumnado analiza y crea un cartel publicitario digital aplicando los elementos y principios del diseño gráfico. Incluye análisis crítico de la publicidad, manejo de herramientas digitales de diseño, respeto a los derechos de autor y reflexión sobre la identidad digital.&lt;/p&gt;&lt;/div&gt;"></unicode>
+                 <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;table border=&quot;1&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 27.2773%;&quot;&gt;AUTORIA&lt;/td&gt;
+&lt;td style=&quot;width: 72.7227%;&quot;&gt;DOCENTE: EUGENIO MONTORO AYBAR&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 27.2773%;&quot;&gt;ESPECIALIDAD&lt;/td&gt;
+&lt;td style=&quot;width: 72.7227%;&quot;&gt;EDUCACIÓN PLÁSTICA VISUAL Y AUDIOVISUAL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 27.2773%;&quot;&gt;CURSO&lt;/td&gt;
+&lt;td style=&quot;width: 72.7227%;&quot;&gt;3º ESO&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 27.2773%;&quot;&gt;DESCRIPCIÓN&lt;/td&gt;
+&lt;td style=&quot;width: 72.7227%;&quot;&gt;Situación de Aprendizaje para 3.º de ESO sobre el diseño gráfico y el cartel publicitario. Creada con eXeLearning 3 para uso libre del profesorado, con licencia CC BY-SA 4.0.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 27.2773%;&quot;&gt;LICENCIA DE USO&lt;/td&gt;
+&lt;td style=&quot;width: 72.7227%;&quot;&gt;Este recurso se publica bajo licencia&lt;br /&gt;Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).&lt;br /&gt;Puedes usar, adaptar y redistribuir este material citando la autoría y manteniendo la misma licencia.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;width: 27.2773%;&quot;&gt;HERRAMIENTA DE CREACIÓN&lt;/td&gt;
+&lt;td style=&quot;width: 72.7227%;&quot;&gt;Creado con eXeLearning 3 — herramienta libre y gratuita para la creación de contenidos educativos interactivos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
                  <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                  <int value="4"></int>
                  <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -3085,14 +3277,14 @@
                  <string role="key" value="nextImageId"></string>
                  <int value="0"></int>
                  <string role="key" value="parentNode"></string>
-                 <none></none>
+                 <reference key="55"></reference>
                 </dictionary>
                </instance>
               </list>
               <string role="key" value="icon"></string>
               <unicode value=""></unicode>
               <string role="key" value="id"></string>
-              <unicode value="22"></unicode>
+              <unicode value="20"></unicode>
               <string role="key" value="ideviceCategory"></string>
               <unicode value="Text and Tasks"></unicode>
               <string role="key" value="lastIdevice"></string>
@@ -3115,17 +3307,21 @@
             </instance>
            </list>
            <string role="key" value="_id"></string>
-           <unicode value="13"></unicode>
+           <unicode value="12"></unicode>
            <string role="key" value="_package"></string>
            <reference key="1"></reference>
+           <string role="key" value="anchor_fields"></string>
+           <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:Inicio:Tema:Secci%C3%B3n"></string>
+           <string value="exe-node:Inicio:EL%20DISE%C3%91O.%20EL%20CARTEL%20PUBLICITARIO:CR%C3%89DITOS"></string>
            <string role="key" value="parent"></string>
            <reference key="4"></reference>
+           <string role="key" value="top_anchors_linked_from_fields"></string>
+           <list></list>
            <string role="key" value="children"></string>
            <list></list>
           </dictionary>
@@ -3143,9 +3339,9 @@
    <unicode role="key" value="11"></unicode>
    <reference key="43"></reference>
    <unicode role="key" value="12"></unicode>
-   <reference key="50"></reference>
-   <unicode role="key" value="13"></unicode>
    <reference key="55"></reference>
+   <unicode role="key" value="13"></unicode>
+   <reference key="50"></reference>
    <unicode role="key" value="2"></unicode>
    <reference key="8"></reference>
    <unicode role="key" value="4"></unicode>
